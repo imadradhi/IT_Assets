@@ -1,0 +1,91 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = IT_Assets
+build_property.ProjectDir = G:\Dev\IT-Assets\IT-Assets\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = false
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[G:/Dev/IT-Assets/IT-Assets/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = IT_Assets.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[G:/Dev/IT-Assets/IT-Assets/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = IT_Assets.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[G:/Dev/IT-Assets/IT-Assets/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = IT_Assets.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[G:/Dev/IT-Assets/IT-Assets/Pages/CreateAccountPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = IT_Assets.Pages.CreateAccountPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\CreateAccountPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\CreateAccountPage.xaml
+
+[G:/Dev/IT-Assets/IT-Assets/Pages/DashboardPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = IT_Assets.Pages.DashboardPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\DashboardPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\DashboardPage.xaml
+
+[G:/Dev/IT-Assets/IT-Assets/Pages/EditAssetPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = IT_Assets.Pages.EditAssetPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\EditAssetPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\EditAssetPage.xaml
+
+[G:/Dev/IT-Assets/IT-Assets/Pages/MaintenancePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = IT_Assets.Pages.MaintenancePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\MaintenancePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\MaintenancePage.xaml
+
+[G:/Dev/IT-Assets/IT-Assets/Pages/NewAssetPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = IT_Assets.Pages.NewAssetPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\NewAssetPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\NewAssetPage.xaml
+
+[G:/Dev/IT-Assets/IT-Assets/Pages/ReportsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = IT_Assets.Pages.ReportsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\ReportsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\ReportsPage.xaml
+
+[G:/Dev/IT-Assets/IT-Assets/Pages/StatisticsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = IT_Assets.Pages.StatisticsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\StatisticsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\StatisticsPage.xaml
+
+[G:/Dev/IT-Assets/IT-Assets/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = IT_Assets.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[G:/Dev/IT-Assets/IT-Assets/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = IT_Assets.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml

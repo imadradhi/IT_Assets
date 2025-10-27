@@ -1,0 +1,18 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="IT_Assets.Pages.CreateAccountPage"
+             Title="Create Account">
+
+    <VerticalStackLayout Padding="24" Spacing="15" HorizontalOptions="Center">
+
+        <Label Text="Create Account" FontSize="28" FontAttributes="Bold" HorizontalOptions="Center"/>
+
+        <Entry x:Name="EmailEntry" Placeholder="Email" WidthRequest="350"/>
+        <Entry x:Name="PasswordEntry" Placeholder="Password" IsPassword="True" WidthRequest="350"/>
+        <Entry x:Name="ConfirmPasswordEntry" Placeholder="Confirm Password" IsPassword="True" WidthRequest="350"/>
+
+        <Button Text="Register" Clicked="OnRegisterButtonClicked" WidthRequest="350"
+                BackgroundColor="#0066CC" TextColor="White" CornerRadius="18"/>
+
+    </VerticalStackLayout>
+</ContentPage>

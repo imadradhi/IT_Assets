@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:IT_Assets.Pages"
+             x:Class="IT_Assets.Pages.DashboardPage"
+             Title="DashboardPage">
+    
+    <VerticalStackLayout Padding="10" Spacing="10">
+
+        <!-- Top buttons -->
+        <Grid ColumnDefinitions="Auto,Auto,Auto,Auto,*,Auto" VerticalOptions="Center" ColumnSpacing="10" Padding="10">
+
+            <!-- First four buttons -->
+            <Button Text="New" Clicked="OnNewClicked" BackgroundColor="#0066CC" TextColor="White" CornerRadius="12" WidthRequest="150" Grid.Column="0"/>
+            <Button Text="Maintenance List" Clicked="OnMaintenanceClicked" BackgroundColor="#FF9900" TextColor="White" CornerRadius="12" WidthRequest="150" Grid.Column="1"/>
+            <Button Text="Statistics" Clicked="OnStatisticsClicked" BackgroundColor="#33CC33" TextColor="White" CornerRadius="12" WidthRequest="150" Grid.Column="2"/>
+            <Button Text="Reports" Clicked="OnReportsClicked" BackgroundColor="#CC3366" TextColor="White" CornerRadius="12" WidthRequest="150" Grid.Column="3"/>
+
+            <!-- Flexible space column (Grid.Column=4) -->
+            <Label x:Name="UserEmailLabel" Text="user@example.com" 
+                   VerticalOptions="Center" HorizontalOptions="End"
+                   Grid.Column="4"
+                   FontAttributes="Bold"
+                   TextColor="Black"
+                   FontSize="16"/>
+
+            
+            <!-- Sign Out button -->
+            <Button Text="Sign Out" Clicked="OnSignOutClicked" BackgroundColor="Red" TextColor="White" CornerRadius="12" WidthRequest="120" Grid.Column="5"/>
+        </Grid>
+
+
+        <!-- Search -->
+        <HorizontalStackLayout Spacing="15">
+            <Label 
+                Text="Search:" 
+                VerticalOptions="Center"
+                FontAttributes="Bold"
+                WidthRequest="50"/>
+            <Entry 
+                x:Name="SearchEntry" 
+                Placeholder="Search by Code or Name"
+                TextChanged="OnSearchTextChanged"
+                WidthRequest="410"
+                HorizontalOptions="Start"/>
+            <Button 
+                Text="Export to Excel" 
+                Clicked="OnExportToExcelClicked"
+                BackgroundColor="#33CC33"
+                TextColor="White"
+                CornerRadius="12"
+                WidthRequest="150"
+                HorizontalOptions="End"/>
+        </HorizontalStackLayout>
+      
+
+        <!-- Header Row -->
+        <Grid ColumnDefinitions="0.3*,0.4*,0.6*,0.8*,*,*,*,*,0.7*"
+          BackgroundColor="Gray"
+          Padding="10">
+            <Label Text="Code" TextColor="White" FontAttributes="Bold" />
+            <Label Text="Name" Grid.Column="1" TextColor="White" FontAttributes="Bold" />
+            <Label Text="Model" Grid.Column="2" TextColor="White" FontAttributes="Bold" />
+            <Label Text="Location" Grid.Column="3" TextColor="White" FontAttributes="Bold" />
+            <Label Text="Receipt Form" Grid.Column="4" TextColor="White" FontAttributes="Bold" />
+            <Label Text="Maintainance date" Grid.Column="5" TextColor="White" FontAttributes="Bold" />
+            <Label Text="Updated By" Grid.Column="6" TextColor="White" FontAttributes="Bold" />
+            <Label Text="Note" Grid.Column="7" TextColor="White" FontAttributes="Bold" />
+            <Label Text="" Grid.Column="8" TextColor="White" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+        </Grid>
+
+        <!-- Scrollable CollectionView -->
+        <CollectionView x:Name="AssetsCollectionView"
+                SelectionMode="None"
+                ItemsSource="{Binding FilteredAssets}"
+                VerticalScrollBarVisibility="Always"
+                HeightRequest="500">
+            <CollectionView.ItemsLayout>
+                <LinearItemsLayout Orientation="Vertical" />
+            </CollectionView.ItemsLayout>
+
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame CornerRadius="12" BorderColor="#D0D7E2" Padding="10" Margin="5">
+                        <Grid ColumnDefinitions="0.3*,0.4*,0.6*,0.8*,*,*,*,*,0.7*" RowDefinitions="Auto">
+                            <Label Text="{Binding Code}" Grid.Column="0"/>
+                            <Label Text="{Binding Name}" Grid.Column="1"/>
+                            <Label Text="{Binding Model}" Grid.Column="2"/>
+                            <Label Text="{Binding Location}" Grid.Column="3"/>
+                            <Label Text="{Binding ReceiptForm}" Grid.Column="4"/>
+                            <Label Text="{Binding MaintenanceDate}" Grid.Column="5"/>
+                            <Label Text="{Binding UpdatedBy}" Grid.Column="6"/>
+                            <Label Text="{Binding Note}" Grid.Column="7"/>
+
+                            <HorizontalStackLayout Grid.Column="8" Spacing="5">
+                                <Button Text="Edit"
+                                Clicked="OnEditClicked"
+                                CommandParameter="{Binding Id}"
+                                BackgroundColor="#33CCFF"
+                                TextColor="White"
+                                CornerRadius="8"
+                                WidthRequest="60" />
+
+                                <Button Text="Remove"
+                                Clicked="OnRemoveClicked"
+                                CommandParameter="{Binding Id}"
+                                BackgroundColor="#FF3333"
+                                TextColor="White"
+                                CornerRadius="8"
+                                WidthRequest="80" />
+                            </HorizontalStackLayout>
+                        </Grid>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+    </VerticalStackLayout>
+</ContentPage>

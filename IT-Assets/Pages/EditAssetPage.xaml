@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:IT_Assets.Pages"
+             x:Class="IT_Assets.Pages.EditAssetPage"
+             Title="Edit Asset"
+             BackgroundColor="White">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="15" WidthRequest="450">
+
+            <Label Text="Edit Asset" 
+                FontAttributes="Bold" 
+                FontSize="24" 
+                HorizontalOptions="Center"
+                TextColor="#0066CC"/>
+
+            <!-- Code (read-only) -->
+            <Label Text="Code" TextColor="Gray"/>
+            <Entry x:Name="CodeEntry" IsEnabled="False" BackgroundColor="#f0f0f0"/>
+
+            <!-- Name -->
+            <Label Text="Name" TextColor="Gray"/>
+            <Entry x:Name="NameEntry" Placeholder="Enter asset name"/>
+
+            <!-- Model -->
+            <Label Text="Model" TextColor="Gray"/>
+            <Entry x:Name="ModelEntry" Placeholder="Enter model"/>
+
+            <!-- Location -->
+            <Label Text="Location" TextColor="Gray"/>
+            <Entry x:Name="LocationEntry" Placeholder="Enter location"/>
+
+            <!-- Maintenance Date -->
+            <Label Text="Maintenance Date" TextColor="Gray"/>
+            <DatePicker x:Name="MaintenanceDatePicker"/>
+
+            <!-- Receipt Form -->
+            <Label Text="Receipt Form" TextColor="Gray"/>
+            <Entry x:Name="ReceiptFormEntry" Placeholder="Enter receipt form"/>
+
+            <!-- Note -->
+            <Label Text="Note" TextColor="Gray"/>
+            <Editor x:Name="NoteEditor"
+                Placeholder="Enter additional notes..."
+                AutoSize="TextChanges"
+                HeightRequest="100"
+                BackgroundColor="#f9f9f9"/>
+
+            <!-- Action Buttons -->
+            <HorizontalStackLayout Spacing="10" HorizontalOptions="Center">
+                <Button Text="Save" 
+                    Clicked="OnSaveClicked" 
+                    BackgroundColor="#0066CC" 
+                    TextColor="White"
+                    CornerRadius="12"
+                    WidthRequest="120"/>
+                <Button Text="Cancel" 
+                    Clicked="OnCancelClicked" 
+                    BackgroundColor="Gray" 
+                    TextColor="White"
+                    CornerRadius="12"
+                    WidthRequest="120"/>
+                <Button Text="Delete"
+                    Clicked="OnDeleteClicked"
+                    BackgroundColor="#CC0000"
+                    TextColor="White"
+                    CornerRadius="12"
+                    WidthRequest="120"/>
+            </HorizontalStackLayout>
+
+        </VerticalStackLayout>
+    </ScrollView>
+    <!--   
+<ContentPage.Behaviors>
+    <BehaviorCollection>
+        <EventToCommandBehavior EventName="OnSaveClicked" Command="{Binding SaveCommand}" />
+    </BehaviorCollection>
+</ContentPage.Behaviors>
+-->
+</ContentPage>

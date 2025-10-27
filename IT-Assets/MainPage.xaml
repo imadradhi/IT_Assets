@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="IT_Assets.MainPage">
+
+    <VerticalStackLayout Padding="15" VerticalOptions="Center" HorizontalOptions="Center" Spacing="0">
+
+        <!-- Frame container -->
+        <Frame CornerRadius="16"
+                   BorderColor="#D0D7E2"
+                   BackgroundColor="White"
+                   HasShadow="True"
+                   Padding="15"
+                   WidthRequest="400">
+
+            <VerticalStackLayout Spacing="14" HorizontalOptions="Center">
+
+                <Image
+                        Source="Login2.png"
+                        HeightRequest="185"
+                        Aspect="AspectFit"
+                        SemanticProperties.Description="dot net bot in a race car number eight" />
+
+                <Label
+                        Text="Memebr Login"
+                        FontSize="28"
+                        FontAttributes="Bold"
+                        TextColor="#53A5F8"
+                        HorizontalOptions="Center"
+                        SemanticProperties.HeadingLevel="Level1" />
+
+                <Frame CornerRadius="12"
+                           Padding="0"
+                           HasShadow="False"
+                           BorderColor="#D0D7E2"
+                           BackgroundColor="#F9FAFB"
+                           WidthRequest="350"
+                           HeightRequest="45">
+                    <Entry x:Name="EmailPhoneEntry"
+                               Placeholder="Email/Phone"
+                               TextColor="Black"
+                               BackgroundColor="Transparent"
+                               VerticalOptions="Center" />
+                </Frame>
+
+                <Frame CornerRadius="12"
+                           Padding="0"
+                           HasShadow="False"
+                           BorderColor="#D0D7E2"
+                           BackgroundColor="#F9FAFB"
+                           WidthRequest="350"
+                           HeightRequest="45">
+                    <Entry x:Name="PasswordEntry"
+                               Placeholder="Password"
+                               TextColor="Black"
+                               BackgroundColor="Transparent"
+                               VerticalOptions="Center" 
+                               IsPassword="True"/>
+                </Frame>
+                <Label HorizontalOptions="Center" FontSize="14">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Don't have an account? " />
+                            <Span Text="Join now"
+                                      TextColor="#6E55F5"
+                                      FontAttributes="Bold">
+                                <Span.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="OnJoinTapped" />
+                                </Span.GestureRecognizers>
+                            </Span>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Button
+                        x:Name="LoginButton"
+                        Text="Submit"
+                        Clicked="OnLoginButtonClicked"
+                        HorizontalOptions="Fill"
+                        CornerRadius="18"
+                        BackgroundColor="#6E55F5"
+                        TextColor="White"
+                        FontAttributes="Bold"
+                        HeightRequest="48" />
+
+            </VerticalStackLayout>
+        </Frame>
+
+    </VerticalStackLayout>
+
+</ContentPage>
