@@ -1,13 +1,20 @@
-﻿using IT_Assets.FireHelpers;
+﻿using DocumentFormat.OpenXml.Spreadsheet;
+using DocumentFormat.OpenXml.Wordprocessing;
+using IT_Assets.FireHelpers;
 using IT_Assets.Models;
 using System.Collections.ObjectModel;
 using System.Linq;
+using System.Runtime.CompilerServices;
 
 namespace IT_Assets.Pages;
 
 public partial class DashboardPage : ContentPage
 {
     private FirebaseHelper _firebase = new FirebaseHelper();
+    private bool _isLoading = false; // Flag to prevent duplicate loading
+
+    private int _assetsCount = 0;
+    private int _maitenancelistCount = 0;
 
     public ObservableCollection<AssetModel> AllAssets { get; set; } = new ObservableCollection<AssetModel>();
     public ObservableCollection<AssetModel> FilteredAssets { get; set; } = new ObservableCollection<AssetModel>();
@@ -26,41 +33,52 @@ public partial class DashboardPage : ContentPage
 
         // Initialize async tasks
         _ = InitializeAsync();
+           
     }
 
     private async Task InitializeAsync()
     {
-        // Optionally login if needed (or assume already authenticated)
-        // If using idToken from login, make sure _firebase has it
-        // await _firebase.LoginUserAsync(email, password); // if needed
-
-        // Load assets from Firebase
+        // Load assets from Firebase only once during initialization
         await LoadAssetsAsync();
     }
 
     private async Task LoadAssetsAsync()
     {
-        AllAssets.Clear(); // Clear the collection before loading new data
-        var assets = await _firebase.GetAllAssetsAsync();
+        if (_isLoading) return; // Prevent duplicate calls
+        _isLoading = true;
 
-        if (assets == null || !assets.Any())
+        try
         {
-            await DisplayAlert("Info", "No assets found in Firebase.", "OK");
-            return;
-        }
+            AllAssets.Clear(); // Clear the collection before loading new data
+            var assets = await _firebase.GetAllAssetsAsync();
 
-        foreach (var asset in assets)
+            if (assets == null || !assets.Any())
+            {
+                await DisplayAlert("Info", "No assets found in Firebase.", "OK");
+                return;
+            }
+
+            foreach (var asset in assets)
+            {
+                AllAssets.Add(asset); // Add each asset to the collection
+            }
+
+            FilteredAssets.Clear(); // Clear the filtered collection
+            foreach (var asset in AllAssets)
+            {
+                FilteredAssets.Add(asset); // Copy all assets to the filtered collection
+            }
+
+            Console.WriteLine($"Loaded {FilteredAssets.Count} assets.");
+        }
+        catch (Exception ex)
         {
-            AllAssets.Add(asset); // Add each asset to the collection
+            await DisplayAlert("Error", $"Failed to load assets: {ex.Message}", "OK");
         }
-
-        FilteredAssets.Clear(); // Clear the filtered collection
-        foreach (var asset in AllAssets)
+        finally
         {
-            FilteredAssets.Add(asset); // Copy all assets to the filtered collection
+            _isLoading = false; // Reset the loading flag
         }
-
-        Console.WriteLine($"Loaded {FilteredAssets.Count} assets.");
     }
 
     // -------------------------------
@@ -80,6 +98,7 @@ public partial class DashboardPage : ContentPage
         FilteredAssets.Clear();
         foreach (var asset in AllAssets.Where(a => a.Code.ToLower().Contains(query) || a.Name.ToLower().Contains(query) || a.Model.ToLower().Contains(query)))
             FilteredAssets.Add(asset);
+        ShownAssetsCount.Text = $"{FilteredAssets.Count} Items shown!";
     }
 
     // -------------------------------
@@ -239,4 +258,20 @@ public partial class DashboardPage : ContentPage
         return null;
 #endif
     }
+
+    protected override async void OnAppearing()
+    {
+        base.OnAppearing();
+        
+        // Reload assets when the page appears
+        await ReloadAssets();
+
+        // Load the number of shown items and maintenance list items
+        _maitenancelistCount = await _firebase.GetMaintenanceAssetsCountAsync();
+        MaintenancelistCount.Text = $"{_maitenancelistCount.ToString()} Items in maintenance list";
+        _assetsCount = await _firebase.GetAssetsCountAsync();
+        ShownAssetsCount.Text = $"{_assetsCount} Items shown !!";
+    }
+
+
 }

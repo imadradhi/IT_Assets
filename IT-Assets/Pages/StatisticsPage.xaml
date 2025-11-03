@@ -1,12 +1,187 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="IT_Assets.Pages.StatisticsPage"
-             Title="StatisticsPage">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"  
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"  
+             x:Class="IT_Assets.Pages.StatisticsPage"  
+             Title="Assets Statistics"  
+             BackgroundColor="#F4F6FA">  
+
+    <ScrollView>  
+        <VerticalStackLayout Padding="20" Spacing="20" WidthRequest="800">
+
+            <HorizontalStackLayout Padding="20" Spacing="30">
+                <!-- Back button-->
+                <Button Text="←" 
+                     BackgroundColor="Red" 
+                      FontSize="35"
+                     TextColor="White" 
+                     CornerRadius="12" 
+                     HeightRequest="20"
+                     Clicked="OnCancelClicked"
+                     WidthRequest="80"
+                     VerticalOptions="Center"/>
+                <!-- Header -->
+                <Label Text="Assets Overview"  
+                   FontSize="28"  
+                   FontAttributes="Bold"  
+                   TextColor="#1A1A1A"/>
+            </HorizontalStackLayout>
+           
+            <BoxView HeightRequest="2" Color="#D0D7E2" />  
+
+            <!-- Cards Grid -->  
+            <Grid ColumnDefinitions="*,*,*"  
+                  RowSpacing="15"  
+                  ColumnSpacing="15">  
+
+                <!-- Example Card Template -->
+                <Frame BackgroundColor="#0066CC"  
+                       CornerRadius="15"  
+                       Padding="15">  
+                    <Frame.Shadow>
+                        <Shadow Brush="Black" Opacity="0.5" Offset="5,5" Radius="10" />
+                    </Frame.Shadow>
+                    <VerticalStackLayout HorizontalOptions="Center">  
+                        <Image Source="laptop_icon.png" HeightRequest="20"/>
+                        <Label Text="Laptops" FontAttributes="Bold" FontSize="25" TextColor="White" HorizontalOptions="Center"/>
+                        <Label Text="{Binding LaptopCount}" FontSize="25" TextColor="White" HorizontalOptions="Center"/>  
+                    </VerticalStackLayout>  
+                </Frame>
+
+                <Frame BackgroundColor="#00C851"  
+                       CornerRadius="15"  
+                       Padding="15"  
+                        
+                       Grid.Column="1">  
+                    <VerticalStackLayout HorizontalOptions="Center">  
+                        <Image Source="printer_icon.png" HeightRequest="20"/>
+                        <Label Text="Printers" FontAttributes="Bold" FontSize="25" TextColor="White" HorizontalOptions="Center"/>
+                        <Label Text="{Binding PrinterCount}" FontSize="25" TextColor="White" HorizontalOptions="Center"/>  
+                    </VerticalStackLayout>  
+                </Frame>
+
+                <Frame BackgroundColor="#FF4444"  
+                       CornerRadius="15"  
+                       Padding="15"  
+                       Grid.Column="2">  
+                    <VerticalStackLayout HorizontalOptions="Center">  
+                        <Image Source="desktop_icon.png" HeightRequest="20"/>
+                        <Label Text="Desktops" FontAttributes="Bold" FontSize="25" TextColor="White" HorizontalOptions="Center"/>
+                        <Label Text="{Binding DesktopCount}" FontSize="25" TextColor="White" HorizontalOptions="Center"/>  
+                    </VerticalStackLayout>  
+                </Frame>  
+                
+
+                <!-- Add more rows for All-in-One, XPrinters, etc. -->  
+            </Grid>
+            <Grid ColumnDefinitions="*,*,*"  
+                   RowSpacing="15"  
+                   ColumnSpacing="15">
+
+                <!-- Example Card Template -->
+                <Frame BackgroundColor="#9933CC"  
+                        CornerRadius="20"  
+                        Padding="15"
+                        HasShadow="True">
+                    <Frame.Shadow>
+                        <Shadow Brush="#55000000" Opacity="0.6" Offset="8,8" Radius="15" />
+                    </Frame.Shadow>
+                    <VerticalStackLayout HorizontalOptions="Center">
+                        <Image Source="laptop_icon.png" HeightRequest="20"/>
+                        <Label Text="All-in-one" FontAttributes="Bold" FontSize="25" TextColor="White" HorizontalOptions="Center"/>
+                        <Label Text="{Binding All_in_oneCount}" FontSize="25" TextColor="White" HorizontalOptions="Center"/>
+                    </VerticalStackLayout>
+                </Frame>
+
+                <Frame BackgroundColor="#FF8800"  
+            CornerRadius="15"  
+            Padding="15"  
+             
+            Grid.Column="1">
+                    <VerticalStackLayout HorizontalOptions="Center">
+                        <Image Source="printer_icon.png" HeightRequest="20"/>
+                        <Label Text="X-Printer" FontAttributes="Bold" FontSize="25" TextColor="White" HorizontalOptions="Center"/>
+                        <Label Text="{Binding XPrinterCount}" FontSize="25" TextColor="White" HorizontalOptions="Center"/>
+                    </VerticalStackLayout>
+                </Frame>
+
+                <Frame BackgroundColor="#AA66CC"  
+            CornerRadius="15"  
+            Padding="15"  
+            Grid.Column="2">
+                    <VerticalStackLayout HorizontalOptions="Center">
+                        <Image Source="desktop_icon.png" HeightRequest="20"/>
+                        <Label Text="Barcode printer" FontAttributes="Bold" FontSize="25" TextColor="White" HorizontalOptions="Center"/>
+                        <Label Text="{Binding Barcodeprinter}" FontSize="25" TextColor="White" HorizontalOptions="Center"/>
+                    </VerticalStackLayout>
+                </Frame>
+
+
+                <!-- Add more rows for All-in-One, XPrinters, etc. -->
+            </Grid>
+            <Grid ColumnDefinitions="*,*,*"  
+       RowSpacing="15"  
+       ColumnSpacing="15">
+
+                <!-- Example Card Template -->
+                <Frame BackgroundColor="#33B5E5"  
+            CornerRadius="15"  
+            Padding="15">
+                    <Frame.Shadow>
+                        <Shadow Brush="Black" Opacity="0.5" Offset="5,5" Radius="10" />
+                    </Frame.Shadow>
+                    <VerticalStackLayout HorizontalOptions="Center">
+                        <Image Source="laptop_icon.png" HeightRequest="20"/>
+                        <Label Text="Barcode reader" FontAttributes="Bold" FontSize="25" TextColor="White" HorizontalOptions="Center"/>
+                        <Label Text="{Binding BarcodeReader}" FontSize="25" TextColor="White" HorizontalOptions="Center"/>
+                    </VerticalStackLayout>
+                </Frame>
+
+                <Frame BackgroundColor="#FFBB33"  
+            CornerRadius="15"  
+            Padding="15"  
+             
+            Grid.Column="1">
+                    <VerticalStackLayout HorizontalOptions="Center">
+                        <Image Source="printer_icon.png" HeightRequest="20"/>
+                        <Label Text="UPS" FontAttributes="Bold" FontSize="25" TextColor="White" HorizontalOptions="Center"/>
+                        <Label Text="{Binding UpsCount}" FontSize="25" TextColor="White" HorizontalOptions="Center"/>
+                    </VerticalStackLayout>
+                </Frame>
+
+                <Frame BackgroundColor="#0099CC"  
+            CornerRadius="15"  
+            Padding="15"  
+            Grid.Column="2">
+                    <VerticalStackLayout HorizontalOptions="Center">
+                        <Image Source="desktop_icon.png" HeightRequest="20"/>
+                        <Label Text="Scanner" FontAttributes="Bold" FontSize="25" TextColor="White" HorizontalOptions="Center"/>
+                        <Label Text="{Binding ScannerCount}" FontSize="25" TextColor="White" HorizontalOptions="Center"/>
+                    </VerticalStackLayout>
+                </Frame>
+
+
+                <!-- Add more rows for All-in-One, XPrinters, etc. -->
+            </Grid>
+            <Grid ColumnDefinitions="*,*,*"  
+       RowSpacing="15"  
+       ColumnSpacing="15">
+
+                <!-- Example Card Template -->
+                <Frame BackgroundColor="#FF6699"  
+            CornerRadius="15"  
+            Padding="15">
+                    <Frame.Shadow>
+                        <Shadow Brush="Black" Opacity="0.5" Offset="5,5" Radius="10" />
+                    </Frame.Shadow>
+                    <VerticalStackLayout HorizontalOptions="Center">
+                        <Image Source="laptop_icon.png" HeightRequest="20"/>
+                        <Label Text="POS" FontAttributes="Bold" FontSize="25" TextColor="White" HorizontalOptions="Center"/>
+                        <Label Text="{Binding PosCount}" FontSize="25" TextColor="White" HorizontalOptions="Center"/>
+                    </VerticalStackLayout>
+                </Frame>
+                <!-- Add more rows for All-in-One, XPrinters, etc. -->
+            </Grid>
+
+        </VerticalStackLayout>  
+    </ScrollView>  
 </ContentPage>

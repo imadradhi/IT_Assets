@@ -1,1 +1,1 @@
-G:\Dev\IT-Assets\IT-Assets\bin\Release\net8.0-windows10.0.19041.0\win10-x64\AppPackages\IT-Assets_0.1.0.0_Test\IT-Assets_0.1.0.0_x86.msix
+G:\Dev\IT-Assets\IT-Assets\bin\Release\net8.0-windows10.0.19041.0\win10-x64\AppPackages\IT-Assets_0.3.2.0_Test\IT-Assets_0.3.2.0_x86.msix

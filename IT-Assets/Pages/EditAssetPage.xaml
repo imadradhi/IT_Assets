@@ -16,30 +16,40 @@
                 TextColor="#0066CC"/>
 
             <!-- Code (read-only) -->
-            <Label Text="Code" TextColor="Gray"/>
-            <Entry x:Name="CodeEntry" IsEnabled="False" BackgroundColor="#f0f0f0"/>
-
+            <HorizontalStackLayout>
+                <Label Text="Code" TextColor="Gray" WidthRequest="120" VerticalOptions="Center"/>
+                <Entry x:Name="CodeEntry" IsEnabled="False" BackgroundColor="#f0f0f0"  WidthRequest="300"/>
+            </HorizontalStackLayout>
+            
             <!-- Name -->
-            <Label Text="Name" TextColor="Gray"/>
-            <Entry x:Name="NameEntry" Placeholder="Enter asset name"/>
-
+            <HorizontalStackLayout>
+            <Label Text="Name" TextColor="Gray" WidthRequest="120" VerticalOptions="Center"/>
+                <Entry x:Name="NameEntry" Placeholder="Enter asset name" WidthRequest="300"/>
+            </HorizontalStackLayout>
+            
             <!-- Model -->
-            <Label Text="Model" TextColor="Gray"/>
-            <Entry x:Name="ModelEntry" Placeholder="Enter model"/>
+            <HorizontalStackLayout>
+                <Label Text="Model" TextColor="Gray" WidthRequest="120" VerticalOptions="Center"/>
+                <Entry x:Name="ModelEntry" Placeholder="Enter model" WidthRequest="300"/>
+            </HorizontalStackLayout>
 
             <!-- Location -->
-            <Label Text="Location" TextColor="Gray"/>
-            <Entry x:Name="LocationEntry" Placeholder="Enter location"/>
-
-            <!-- Maintenance Date -->
-            <Label Text="Maintenance Date" TextColor="Gray"/>
-            <DatePicker x:Name="MaintenanceDatePicker"/>
-
-            <!-- Receipt Form -->
-            <Label Text="Receipt Form" TextColor="Gray"/>
-            <Entry x:Name="ReceiptFormEntry" Placeholder="Enter receipt form"/>
-
-            <!-- Note -->
+            <HorizontalStackLayout>
+            <Label Text="Location" TextColor="Gray" WidthRequest="120" VerticalOptions="Center"/>
+                <Entry x:Name="LocationEntry" Placeholder="Enter location" WidthRequest="300"/>
+            </HorizontalStackLayout>
+            
+             <!-- Maintenance Date -->
+            <HorizontalStackLayout>
+                <Label Text="Maintenance  Date" TextColor="Gray"  WidthRequest="119" VerticalOptions="Center"/>
+                <DatePicker x:Name="MaintenanceDatePicker" WidthRequest="300"/>
+             </HorizontalStackLayout>
+                    <!-- Receipt Form -->
+            <HorizontalStackLayout>
+                <Label Text="Receipt Form" TextColor="Gray" WidthRequest="120" VerticalOptions="Center"/>
+            <Entry x:Name="ReceiptFormEntry" Placeholder="Enter receipt form" WidthRequest="300"/>
+            </HorizontalStackLayout>
+                    <!-- Note -->
             <Label Text="Note" TextColor="Gray"/>
             <Editor x:Name="NoteEditor"
                 Placeholder="Enter additional notes..."
@@ -58,12 +68,6 @@
                 <Button Text="Cancel" 
                     Clicked="OnCancelClicked" 
                     BackgroundColor="Gray" 
-                    TextColor="White"
-                    CornerRadius="12"
-                    WidthRequest="120"/>
-                <Button Text="Delete"
-                    Clicked="OnDeleteClicked"
-                    BackgroundColor="#CC0000"
                     TextColor="White"
                     CornerRadius="12"
                     WidthRequest="120"/>

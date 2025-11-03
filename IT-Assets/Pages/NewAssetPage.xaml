@@ -12,31 +12,31 @@
             <!-- Code -->
             <HorizontalStackLayout Spacing="10">
                 <Label Text="Code:" WidthRequest="120" VerticalOptions="Center" />
-                <Entry x:Name="CodeEntry" Placeholder="Enter code" HorizontalOptions="FillAndExpand" WidthRequest="150"/>
+                <Entry x:Name="CodeEntry" Placeholder="Enter code" HorizontalOptions="FillAndExpand" WidthRequest="300"/>
             </HorizontalStackLayout>
 
             <!-- Name -->
             <HorizontalStackLayout Spacing="10">
                 <Label Text="Name:" WidthRequest="120" VerticalOptions="Center" />
-                <Entry x:Name="NameEntry" Placeholder="Enter name" HorizontalOptions="FillAndExpand" WidthRequest="150"/>
+                <Entry x:Name="NameEntry" Placeholder="Enter name" HorizontalOptions="FillAndExpand" WidthRequest="300"/>
             </HorizontalStackLayout>
 
             <!-- Model -->
             <HorizontalStackLayout Spacing="10">
                 <Label Text="Model:" WidthRequest="120" VerticalOptions="Center" />
-                <Entry x:Name="ModelEntry" Placeholder="Enter model" HorizontalOptions="FillAndExpand" WidthRequest="150"/>
+                <Entry x:Name="ModelEntry" Placeholder="Enter model" HorizontalOptions="FillAndExpand" WidthRequest="300"/>
             </HorizontalStackLayout>
 
             <!-- Location -->
             <HorizontalStackLayout Spacing="10">
                 <Label Text="Location:" WidthRequest="120" VerticalOptions="Center" />
-                <Entry x:Name="LocationEntry" Placeholder="Enter location" HorizontalOptions="FillAndExpand" WidthRequest="150"/>
+                <Entry x:Name="LocationEntry" Placeholder="Enter location" HorizontalOptions="FillAndExpand" WidthRequest="300"/>
             </HorizontalStackLayout>
 
             <!-- Receipt Form -->
             <HorizontalStackLayout Spacing="10">
                 <Label Text="Receipt Form:" WidthRequest="120" VerticalOptions="Center" />
-                <Entry x:Name="ReceiptFormEntry" Placeholder="Enter receipt form" HorizontalOptions="FillAndExpand" WidthRequest="150"/>
+                <Entry x:Name="ReceiptFormEntry" Placeholder="Enter receipt form" HorizontalOptions="FillAndExpand" WidthRequest="300"/>
             </HorizontalStackLayout>
 
             <!-- Maintenance Date -->
@@ -52,12 +52,22 @@
                     HeightRequest="200" />
             
             <!-- Save Button -->
-            <Button Text="Save" 
-                    BackgroundColor="#33CCFF" 
-                    TextColor="White" 
-                    CornerRadius="12" 
-                    HeightRequest="50"
-                    Clicked="OnSaveClicked"/>
+            <HorizontalStackLayout Spacing="10" HorizontalOptions="Center">
+                <Button Text="Save" 
+                     BackgroundColor="#33CCFF" 
+                     TextColor="White" 
+                     CornerRadius="12" 
+                     HeightRequest="50"
+                     Clicked="OnSaveClicked"
+                     WidthRequest="100"/>
+                <Button Text="Cancel" 
+                     BackgroundColor="Red" 
+                     TextColor="White" 
+                     CornerRadius="12" 
+                     HeightRequest="50"
+                     Clicked="OnCancelClicked"
+                     WidthRequest="100"/>
+            </HorizontalStackLayout>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

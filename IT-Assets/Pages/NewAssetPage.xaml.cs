@@ -38,6 +38,7 @@ public partial class NewAssetPage : ContentPage
             Location = LocationEntry.Text.Trim(),
             ReceiptForm = ReceiptFormEntry.Text.Trim(),
             MaintenanceDate = MaintenanceDatePicker.Date.Date,
+            RequiredMaintenanceDate = MaintenanceDatePicker.Date.AddMonths(1).Date,
             UpdatedBy = GlobalVar.UserEmail,
             Note = NoteEditor.Text?.Trim() ?? ""
         };
@@ -60,6 +61,11 @@ public partial class NewAssetPage : ContentPage
         {
             await DisplayAlert("Error", "Failed to add asset.", "OK");
         }
+    }
+
+    private async void OnCancelClicked(object sender, EventArgs e)
+    {
+        await Navigation.PopAsync();
     }
 
 }

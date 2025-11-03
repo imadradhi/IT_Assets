@@ -369,3 +369,14 @@ G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\qualif
 G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\qualifiers.txt.intermediate
 G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\MultipleQualifiersPerDimensionFound.txt
 G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\ProjectArchitectures.txt
+G:\Dev\IT-Assets\IT-Assets\bin\Release\net8.0-windows10.0.19041.0\win-x86\Microcharts.Maui.dll
+G:\Dev\IT-Assets\IT-Assets\bin\Release\net8.0-windows10.0.19041.0\win-x86\SkiaSharp.dll
+G:\Dev\IT-Assets\IT-Assets\bin\Release\net8.0-windows10.0.19041.0\win-x86\SkiaSharp.Views.WinUI.Native.Projection.dll
+G:\Dev\IT-Assets\IT-Assets\bin\Release\net8.0-windows10.0.19041.0\win-x86\SkiaSharp.Views.Maui.Controls.dll
+G:\Dev\IT-Assets\IT-Assets\bin\Release\net8.0-windows10.0.19041.0\win-x86\SkiaSharp.Views.Maui.Core.dll
+G:\Dev\IT-Assets\IT-Assets\bin\Release\net8.0-windows10.0.19041.0\win-x86\SkiaSharp.Views.Windows.dll
+G:\Dev\IT-Assets\IT-Assets\bin\Release\net8.0-windows10.0.19041.0\win-x86\libSkiaSharp.dll
+G:\Dev\IT-Assets\IT-Assets\bin\Release\net8.0-windows10.0.19041.0\win-x86\SkiaSharp.Views.WinUI.Native.dll
+G:\Dev\IT-Assets\IT-Assets\bin\Release\net8.0-windows10.0.19041.0\win-x86\SkiaSharp.Views.WinUI.Native.winmd
+G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\IT-Assets.sourcelink.json
+G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\.winmd_cache\$SkiaSharp.Views.WinUI.Native.winmd_638665814300000000.json

@@ -61,164 +61,164 @@
     <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\login2.scale-100.png">
-      <PackagePath>login2.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\login.scale-100.png">
-      <PackagePath>login.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconLargeTile.scale-400.png">
-      <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconLargeTile.scale-200.png">
-      <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconLargeTile.scale-150.png">
-      <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconLargeTile.scale-125.png">
-      <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appicon.ico">
+      <PackagePath>appicon.ico</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconWideTile.scale-400.png">
-      <PackagePath>appiconWideTile.scale-400.png</PackagePath>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconLargeTile.scale-125.png">
+      <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconWideTile.scale-200.png">
-      <PackagePath>appiconWideTile.scale-200.png</PackagePath>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconLargeTile.scale-150.png">
+      <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconWideTile.scale-150.png">
-      <PackagePath>appiconWideTile.scale-150.png</PackagePath>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconLargeTile.scale-200.png">
+      <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconWideTile.scale-125.png">
-      <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconWideTile.scale-100.png">
-      <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconMediumTile.scale-400.png">
-      <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconMediumTile.scale-200.png">
-      <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconMediumTile.scale-150.png">
-      <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconMediumTile.scale-125.png">
-      <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconMediumTile.scale-100.png">
-      <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconSmallTile.scale-400.png">
-      <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconSmallTile.scale-200.png">
-      <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconSmallTile.scale-150.png">
-      <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconSmallTile.scale-125.png">
-      <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconSmallTile.scale-100.png">
-      <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconStoreLogo.scale-400.png">
-      <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconStoreLogo.scale-200.png">
-      <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconStoreLogo.scale-150.png">
-      <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconStoreLogo.scale-125.png">
-      <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconStoreLogo.scale-100.png">
-      <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconLargeTile.scale-400.png">
+      <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconLogo.targetsize-256.png">
-      <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconLogo.targetsize-48.png">
-      <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconLogo.targetsize-32.png">
-      <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconLogo.targetsize-24.png">
-      <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconLogo.targetsize-16.png">
-      <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconLogo.scale-400.png">
-      <PackagePath>appiconLogo.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconLogo.scale-200.png">
-      <PackagePath>appiconLogo.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconLogo.scale-150.png">
-      <PackagePath>appiconLogo.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconLogo.scale-125.png">
-      <PackagePath>appiconLogo.scale-125.png</PackagePath>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appicon.ico">
-      <PackagePath>appicon.ico</PackagePath>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconLogo.scale-125.png">
+      <PackagePath>appiconLogo.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\dotnet_bot.scale-400.png">
-      <PackagePath>dotnet_bot.scale-400.png</PackagePath>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconLogo.scale-150.png">
+      <PackagePath>appiconLogo.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\dotnet_bot.scale-200.png">
-      <PackagePath>dotnet_bot.scale-200.png</PackagePath>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconLogo.scale-200.png">
+      <PackagePath>appiconLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\dotnet_bot.scale-150.png">
-      <PackagePath>dotnet_bot.scale-150.png</PackagePath>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconLogo.scale-400.png">
+      <PackagePath>appiconLogo.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconLogo.targetsize-16.png">
+      <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconLogo.targetsize-24.png">
+      <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconLogo.targetsize-256.png">
+      <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconLogo.targetsize-32.png">
+      <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconLogo.targetsize-48.png">
+      <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconMediumTile.scale-100.png">
+      <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconMediumTile.scale-125.png">
+      <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconMediumTile.scale-150.png">
+      <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconMediumTile.scale-200.png">
+      <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconMediumTile.scale-400.png">
+      <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconSmallTile.scale-100.png">
+      <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconSmallTile.scale-125.png">
+      <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconSmallTile.scale-150.png">
+      <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconSmallTile.scale-200.png">
+      <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconSmallTile.scale-400.png">
+      <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconStoreLogo.scale-100.png">
+      <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconStoreLogo.scale-125.png">
+      <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconStoreLogo.scale-150.png">
+      <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconStoreLogo.scale-200.png">
+      <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconStoreLogo.scale-400.png">
+      <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconWideTile.scale-100.png">
+      <PackagePath>appiconWideTile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconWideTile.scale-125.png">
+      <PackagePath>appiconWideTile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconWideTile.scale-150.png">
+      <PackagePath>appiconWideTile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconWideTile.scale-200.png">
+      <PackagePath>appiconWideTile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\appiconWideTile.scale-400.png">
+      <PackagePath>appiconWideTile.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\dotnet_bot.scale-100.png">
+      <PackagePath>dotnet_bot.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\dotnet_bot.scale-100.png">
-      <PackagePath>dotnet_bot.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\dotnet_bot.scale-150.png">
+      <PackagePath>dotnet_bot.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\dotnet_bot.scale-200.png">
+      <PackagePath>dotnet_bot.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\dotnet_bot.scale-400.png">
+      <PackagePath>dotnet_bot.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\login.scale-100.png">
+      <PackagePath>login.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\login2.scale-100.png">
+      <PackagePath>login2.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\bin\Release\net8.0-windows10.0.19041.0\win-x86\IT-Assets.deps.json">
       <PackagePath>IT-Assets.deps.json</PackagePath>
@@ -790,6 +790,9 @@
     <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\excelnumberformat\1.1.0\lib\netstandard2.0\ExcelNumberFormat.dll">
       <PackagePath>ExcelNumberFormat.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microcharts.maui\1.0.1\lib\net8.0-windows10.0.19041\Microcharts.Maui.dll">
+      <PackagePath>Microcharts.Maui.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.extensions.configuration\8.0.0\lib\net8.0\Microsoft.Extensions.Configuration.dll">
       <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>
     </AppxPackagedFile>
@@ -894,6 +897,21 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\sixlabors.fonts\1.0.0\lib\netcoreapp3.1\SixLabors.Fonts.dll">
       <PackagePath>SixLabors.Fonts.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\skiasharp\3.119.1\lib\net8.0-windows10.0.19041\SkiaSharp.dll">
+      <PackagePath>SkiaSharp.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\skiasharp.nativeassets.winui\2.88.9\runtimes\win-x86\lib\net6.0-windows10.0.19041\SkiaSharp.Views.WinUI.Native.Projection.dll">
+      <PackagePath>SkiaSharp.Views.WinUI.Native.Projection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\skiasharp.views.maui.controls\2.88.9\lib\net6.0-windows10.0.18362.0\SkiaSharp.Views.Maui.Controls.dll">
+      <PackagePath>SkiaSharp.Views.Maui.Controls.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\skiasharp.views.maui.core\2.88.9\lib\net6.0-windows10.0.18362.0\SkiaSharp.Views.Maui.Core.dll">
+      <PackagePath>SkiaSharp.Views.Maui.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\skiasharp.views.winui\2.88.9\lib\net6.0-windows10.0.19041.0\SkiaSharp.Views.Windows.dll">
+      <PackagePath>SkiaSharp.Views.Windows.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\system.io.packaging\8.0.1\lib\net8.0\System.IO.Packaging.dll">
       <PackagePath>System.IO.Packaging.dll</PackagePath>
@@ -1005,6 +1023,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.windowsappsdk\1.5.240802000\runtimes\win-x86\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\skiasharp.nativeassets.win32\3.119.1\runtimes\win-x86\native\libSkiaSharp.dll">
+      <PackagePath>libSkiaSharp.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\skiasharp.nativeassets.winui\2.88.9\runtimes\win-x86\native\SkiaSharp.Views.WinUI.Native.dll">
+      <PackagePath>SkiaSharp.Views.WinUI.Native.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\skiasharp.nativeassets.winui\2.88.9\runtimes\win-x86\native\SkiaSharp.Views.WinUI.Native.winmd">
+      <PackagePath>SkiaSharp.Views.WinUI.Native.winmd</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.maui.controls.compatibility\8.0.100\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

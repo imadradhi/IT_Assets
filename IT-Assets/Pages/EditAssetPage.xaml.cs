@@ -39,6 +39,7 @@ public partial class EditAssetPage : ContentPage
             Model = ModelEntry.Text,
             Location = LocationEntry.Text,
             MaintenanceDate = MaintenanceDatePicker.Date.Date,
+            RequiredMaintenanceDate = MaintenanceDatePicker.Date.AddMonths(1).Date,
             ReceiptForm = ReceiptFormEntry.Text,
             Note = NoteEditor.Text,
             UpdatedBy = GlobalVar.UserEmail

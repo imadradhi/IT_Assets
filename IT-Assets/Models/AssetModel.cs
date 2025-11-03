@@ -14,6 +14,7 @@ namespace IT_Assets.Models
         public string Model { get; set; }
         public string Location { get; set; }
         public DateTime MaintenanceDate { get; set; }
+        public DateTime RequiredMaintenanceDate { get; set; }
         public string ReceiptForm { get; set; }
         public string UpdatedBy { get; set; }
         public string Note { get; set; } 

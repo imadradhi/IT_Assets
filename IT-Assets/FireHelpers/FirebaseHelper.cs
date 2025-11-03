@@ -226,6 +226,43 @@ namespace IT_Assets.FireHelpers
             // Optionally clear any cached user info
             await Task.CompletedTask;
         }
+
+        public async Task<int> GetMaintenanceAssetsCountAsync()
+        {
+            try
+            {
+                var allAssets = await GetAllAssetsAsync();
+
+                // Count items whose maintenance date is due (1 month after last maintenance)
+                int maintenanceCount = allAssets.Count(a =>
+                    a.MaintenanceDate.AddMonths(1) <= DateTime.Now);
+
+                return maintenanceCount;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"[GetMaintenanceAssetsCountAsync Error] {ex.Message}");
+                return 0;
+            }
+        }
+
+        public async Task<int> GetAssetsCountAsync()
+        {
+            try
+            {
+                var allAssets = await GetAllAssetsAsync();
+
+                // Count items whose maintenance date is due (1 month after last maintenance)
+                int assetsCount = allAssets.Count;
+
+                return assetsCount;
+            }
+            catch (Exception ex)
+            {
+                //Console.WriteLine($"[GetMaintenanceAssetsCountAsync Error] {ex.Message}");
+                return 0;
+            }
+        }
     }
 
     // Small helper extension to support PATCH with HttpClient
@@ -237,4 +274,5 @@ namespace IT_Assets.FireHelpers
             return await client.SendAsync(request);
         }
     }
+
 }

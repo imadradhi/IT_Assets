@@ -1,6 +1,12 @@
 G:\Dev\IT-Assets\IT-Assets\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\IT-Assets.runtimeconfig.json
 G:\Dev\IT-Assets\IT-Assets\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\IT-Assets.dll
 G:\Dev\IT-Assets\IT-Assets\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\IT-Assets.pdb
+G:\Dev\IT-Assets\IT-Assets\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\ClosedXML.dll
+G:\Dev\IT-Assets\IT-Assets\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\ClosedXML.Parser.dll
+G:\Dev\IT-Assets\IT-Assets\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\DocumentFormat.OpenXml.dll
+G:\Dev\IT-Assets\IT-Assets\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\DocumentFormat.OpenXml.Framework.dll
+G:\Dev\IT-Assets\IT-Assets\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\ExcelNumberFormat.dll
+G:\Dev\IT-Assets\IT-Assets\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microcharts.Maui.dll
 G:\Dev\IT-Assets\IT-Assets\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.Configuration.dll
 G:\Dev\IT-Assets\IT-Assets\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.Configuration.Abstractions.dll
 G:\Dev\IT-Assets\IT-Assets\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.DependencyInjection.dll
@@ -16,6 +22,13 @@ G:\Dev\IT-Assets\IT-Assets\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsof
 G:\Dev\IT-Assets\IT-Assets\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Maui.dll
 G:\Dev\IT-Assets\IT-Assets\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Maui.Essentials.dll
 G:\Dev\IT-Assets\IT-Assets\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Maui.Graphics.dll
+G:\Dev\IT-Assets\IT-Assets\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\RBush.dll
+G:\Dev\IT-Assets\IT-Assets\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\SixLabors.Fonts.dll
+G:\Dev\IT-Assets\IT-Assets\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\SkiaSharp.dll
+G:\Dev\IT-Assets\IT-Assets\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\SkiaSharp.Views.iOS.dll
+G:\Dev\IT-Assets\IT-Assets\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\SkiaSharp.Views.Maui.Controls.dll
+G:\Dev\IT-Assets\IT-Assets\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\SkiaSharp.Views.Maui.Core.dll
+G:\Dev\IT-Assets\IT-Assets\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.IO.Packaging.dll
 G:\Dev\IT-Assets\IT-Assets\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\ar\Microsoft.Maui.Controls.resources.dll
 G:\Dev\IT-Assets\IT-Assets\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\ca\Microsoft.Maui.Controls.resources.dll
 G:\Dev\IT-Assets\IT-Assets\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\cs\Microsoft.Maui.Controls.resources.dll
@@ -50,6 +63,7 @@ G:\Dev\IT-Assets\IT-Assets\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\vi\Micro
 G:\Dev\IT-Assets\IT-Assets\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\zh-HK\Microsoft.Maui.Controls.resources.dll
 G:\Dev\IT-Assets\IT-Assets\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\zh-Hans\Microsoft.Maui.Controls.resources.dll
 G:\Dev\IT-Assets\IT-Assets\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\zh-Hant\Microsoft.Maui.Controls.resources.dll
+G:\Dev\IT-Assets\IT-Assets\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libSkiaSharp.framework.zip
 G:\Dev\IT-Assets\IT-Assets\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.CSharp.dll
 G:\Dev\IT-Assets\IT-Assets\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.VisualBasic.Core.dll
 G:\Dev\IT-Assets\IT-Assets\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.VisualBasic.dll
@@ -258,8 +272,8 @@ G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\mauiimag
 G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\mauifont.inputs
 G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\mauisplash.inputs
 G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\mauisplash.stamp
-G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\login.png
 G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\login2.png
+G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\login.png
 G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appiconItunesArtwork.png
 G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon83.5x83.5@2x.png
 G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon76x76@2x.png
@@ -294,6 +308,7 @@ G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\IT-Asset
 G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\IT-Assets.AssemblyInfoInputs.cache
 G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\IT-Assets.AssemblyInfo.cs
 G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\IT-Assets.csproj.CoreCompileInputs.cache
+G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\IT-Assets.sourcelink.json
 G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\XamlC.stamp
 G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\IT-Assets.csproj.Up2Date
 G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\IT-Assets.dll

@@ -12,6 +12,7 @@ public partial class ReportsPage : ContentPage
     public ReportsPage(List<AssetModel> assetModels)
     {
         AssetModels = assetModels;
+        InitializeComponent();
     }
 
     public List<AssetModel> AssetModels { get; }

@@ -3,10 +3,12 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="IT_Assets.Pages.ReportsPage"
              Title="ReportsPage">
+
     <VerticalStackLayout>
         <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+        Text="SOON!"
+        VerticalOptions="Center" 
+        HorizontalOptions="Center" 
+            FontSize="90"/>
     </VerticalStackLayout>
 </ContentPage>
