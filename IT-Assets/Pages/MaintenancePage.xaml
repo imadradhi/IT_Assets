@@ -10,9 +10,9 @@
         <VerticalStackLayout Padding="15">
             <HorizontalStackLayout  Padding="20" Spacing="470">
                 <!-- Back button-->
-                <Button Text="←" 
+                <Button Text="Back" 
                      BackgroundColor="#0099CC" 
-                     FontSize="35"
+                     FontSize="15"
                      TextColor="White" 
                      CornerRadius="12" 
                      HeightRequest="20"

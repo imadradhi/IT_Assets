@@ -12,6 +12,8 @@ namespace IT_Assets
         public MainPage()
         {
             InitializeComponent();
+            string version = $"V {AppInfo.Current.VersionString}";
+            VersionLabel.Text = version;
         }
 
         private async void OnLoginButtonClicked(object sender, EventArgs e)

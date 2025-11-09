@@ -7,7 +7,7 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="com.companyname.itassets" Publisher="CN=Imad2025" Version="0.3.2.0" ProcessorArchitecture="x86" />
+  <Identity Name="com.companyname.itassets" Publisher="CN=Imad2025" Version="0.3.3.0" ProcessorArchitecture="x86" />
   <mp:PhoneIdentity PhoneProductId="2F7B5835-7959-42D0-AE2F-3751799ECA89" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>IT-Assets</DisplayName>

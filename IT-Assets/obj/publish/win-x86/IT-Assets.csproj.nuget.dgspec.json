@@ -55,6 +55,10 @@
               "target": "Package",
               "version": "[0.105.0, )"
             },
+            "CommunityToolkit.Maui": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Microcharts.Maui": {
               "target": "Package",
               "version": "[1.0.1, )"
@@ -70,6 +74,14 @@
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
               "version": "[8.0.100, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.4, )"
+            },
+            "QuestPDF": {
+              "target": "Package",
+              "version": "[2025.7.4, )"
             },
             "SkiaSharp": {
               "target": "Package",

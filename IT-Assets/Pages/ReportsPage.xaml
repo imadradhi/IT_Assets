@@ -1,14 +1,33 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:microcharts="clr-namespace:Microcharts.Maui;assembly=Microcharts.Maui"
              x:Class="IT_Assets.Pages.ReportsPage"
-             Title="ReportsPage">
+             Title="Reports"
+             BackgroundColor="#F4F6FA">
 
-    <VerticalStackLayout>
-        <Label 
-        Text="SOON!"
-        VerticalOptions="Center" 
-        HorizontalOptions="Center" 
-            FontSize="90"/>
-    </VerticalStackLayout>
+    <ScrollView>
+        <VerticalStackLayout 
+        Padding="20"
+        Spacing="10"
+        HorizontalOptions="Center"
+        VerticalOptions="Center">
+
+            <Label 
+                Text="This is a blank page"
+                FontSize="20"
+                TextColor="Gray"
+                HorizontalOptions="Center" />
+            <Button Text="Back" 
+                 BackgroundColor="Red" 
+                  FontSize="15"
+                 TextColor="White" 
+                 CornerRadius="12" 
+                 HeightRequest="20"
+                 Clicked="OnCancelClicked"
+                 WidthRequest="80"
+                 VerticalOptions="Center"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

@@ -220,6 +220,63 @@
     <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Release\net8.0-windows10.0.19041.0\win-x86\resizetizer\r\login2.scale-100.png">
       <PackagePath>login2.scale-100.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\questpdf\2025.7.4\LatoFont\Lato-Black.ttf">
+      <PackagePath>LatoFont\Lato-Black.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\questpdf\2025.7.4\LatoFont\Lato-BlackItalic.ttf">
+      <PackagePath>LatoFont\Lato-BlackItalic.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\questpdf\2025.7.4\LatoFont\Lato-Bold.ttf">
+      <PackagePath>LatoFont\Lato-Bold.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\questpdf\2025.7.4\LatoFont\Lato-BoldItalic.ttf">
+      <PackagePath>LatoFont\Lato-BoldItalic.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\questpdf\2025.7.4\LatoFont\Lato-ExtraBold.ttf">
+      <PackagePath>LatoFont\Lato-ExtraBold.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\questpdf\2025.7.4\LatoFont\Lato-ExtraBoldItalic.ttf">
+      <PackagePath>LatoFont\Lato-ExtraBoldItalic.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\questpdf\2025.7.4\LatoFont\Lato-ExtraLight.ttf">
+      <PackagePath>LatoFont\Lato-ExtraLight.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\questpdf\2025.7.4\LatoFont\Lato-ExtraLightItalic.ttf">
+      <PackagePath>LatoFont\Lato-ExtraLightItalic.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\questpdf\2025.7.4\LatoFont\Lato-Italic.ttf">
+      <PackagePath>LatoFont\Lato-Italic.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\questpdf\2025.7.4\LatoFont\Lato-Light.ttf">
+      <PackagePath>LatoFont\Lato-Light.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\questpdf\2025.7.4\LatoFont\Lato-LightItalic.ttf">
+      <PackagePath>LatoFont\Lato-LightItalic.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\questpdf\2025.7.4\LatoFont\Lato-Medium.ttf">
+      <PackagePath>LatoFont\Lato-Medium.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\questpdf\2025.7.4\LatoFont\Lato-MediumItalic.ttf">
+      <PackagePath>LatoFont\Lato-MediumItalic.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\questpdf\2025.7.4\LatoFont\Lato-Regular.ttf">
+      <PackagePath>LatoFont\Lato-Regular.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\questpdf\2025.7.4\LatoFont\Lato-SemiBold.ttf">
+      <PackagePath>LatoFont\Lato-SemiBold.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\questpdf\2025.7.4\LatoFont\Lato-SemiBoldItalic.ttf">
+      <PackagePath>LatoFont\Lato-SemiBoldItalic.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\questpdf\2025.7.4\LatoFont\Lato-Thin.ttf">
+      <PackagePath>LatoFont\Lato-Thin.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\questpdf\2025.7.4\LatoFont\Lato-ThinItalic.ttf">
+      <PackagePath>LatoFont\Lato-ThinItalic.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\questpdf\2025.7.4\LatoFont\OFL.txt">
+      <PackagePath>LatoFont\OFL.txt</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\bin\Release\net8.0-windows10.0.19041.0\win-x86\IT-Assets.deps.json">
       <PackagePath>IT-Assets.deps.json</PackagePath>
     </AppxPackagedFile>
@@ -781,6 +838,12 @@
     <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\closedxml.parser\2.0.0\lib\netstandard2.1\ClosedXML.Parser.dll">
       <PackagePath>ClosedXML.Parser.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\communitytoolkit.maui\8.0.0\lib\net8.0-windows10.0.19041\CommunityToolkit.Maui.dll">
+      <PackagePath>CommunityToolkit.Maui.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\communitytoolkit.maui.core\8.0.0\lib\net8.0-windows10.0.19041\CommunityToolkit.Maui.Core.dll">
+      <PackagePath>CommunityToolkit.Maui.Core.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\documentformat.openxml\3.1.1\lib\net8.0\DocumentFormat.OpenXml.dll">
       <PackagePath>DocumentFormat.OpenXml.dll</PackagePath>
     </AppxPackagedFile>
@@ -892,6 +955,12 @@
     <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.windowsappsdk\1.5.240802000\lib\net6.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\newtonsoft.json\13.0.4\lib\net6.0\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\questpdf\2025.7.4\lib\net8.0\QuestPDF.dll">
+      <PackagePath>QuestPDF.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\rbush.signed\4.0.0\lib\net8.0\RBush.dll">
       <PackagePath>RBush.dll</PackagePath>
     </AppxPackagedFile>
@@ -915,6 +984,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\system.io.packaging\8.0.1\lib\net8.0\System.IO.Packaging.dll">
       <PackagePath>System.IO.Packaging.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\system.speech\8.0.0\runtimes\win\lib\net8.0\System.Speech.dll">
+      <PackagePath>System.Speech.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.maui.controls.core\8.0.100\lib\net8.0-windows10.0.19041\ar\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>ar\Microsoft.Maui.Controls.resources.dll</PackagePath>
@@ -1023,6 +1095,24 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.windowsappsdk\1.5.240802000\runtimes\win-x86\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\questpdf\2025.7.4\runtimes\win-x86\native\QuestPdfSkia.dll">
+      <PackagePath>QuestPdfSkia.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\questpdf\2025.7.4\runtimes\win-x86\native\libgcc_s_dw2-1.dll">
+      <PackagePath>libgcc_s_dw2-1.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\questpdf\2025.7.4\runtimes\win-x86\native\libstdc++-6.dll">
+      <PackagePath>libstdc++-6.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\questpdf\2025.7.4\runtimes\win-x86\native\libwinpthread-1.dll">
+      <PackagePath>libwinpthread-1.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\questpdf\2025.7.4\runtimes\win-x86\native\qpdf.dll">
+      <PackagePath>qpdf.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\questpdf\2025.7.4\runtimes\win-x86\native\zlib1.dll">
+      <PackagePath>zlib1.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\skiasharp.nativeassets.win32\3.119.1\runtimes\win-x86\native\libSkiaSharp.dll">
       <PackagePath>libSkiaSharp.dll</PackagePath>

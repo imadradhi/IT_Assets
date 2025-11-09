@@ -35,6 +35,41 @@
           }
         }
       },
+      "CommunityToolkit.Maui/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "8.0.0",
+          "Microsoft.Maui.Controls": "8.0.14",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.14"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Core": "8.0.14",
+          "Microsoft.Maui.Essentials": "8.0.14"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "DocumentFormat.OpenXml/3.1.1": {
         "type": "package",
         "dependencies": {
@@ -538,6 +573,125 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "QuestPDF/2025.7.4": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/QuestPDF.targets": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-arm64/native/libQuestPdfSkia.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-arm64/native/libqpdf.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-musl-x64/native/libQuestPdfSkia.so": {
+            "assetType": "native",
+            "rid": "linux-musl-x64"
+          },
+          "runtimes/linux-musl-x64/native/libqpdf.so": {
+            "assetType": "native",
+            "rid": "linux-musl-x64"
+          },
+          "runtimes/linux-x64/native/libQuestPdfSkia.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libqpdf.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx-arm64/native/libQuestPdfSkia.dylib": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-arm64/native/libqpdf.dylib": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-x64/native/libQuestPdfSkia.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/libqpdf.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-x64/native/QuestPdfSkia.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/libgcc_s_seh-1.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/libstdc++-6.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/libwinpthread-1.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/qpdf.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/zlib1.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/QuestPdfSkia.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/libgcc_s_dw2-1.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/libstdc++-6.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/libwinpthread-1.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/qpdf.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/zlib1.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
         }
       },
       "RBush.Signed/4.0.0": {
@@ -2472,6 +2626,41 @@
           }
         }
       },
+      "CommunityToolkit.Maui/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "8.0.0",
+          "Microsoft.Maui.Controls": "8.0.14",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.14"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Core": "8.0.14",
+          "Microsoft.Maui.Essentials": "8.0.14"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "DocumentFormat.OpenXml/3.1.1": {
         "type": "package",
         "dependencies": {
@@ -2975,6 +3164,35 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "QuestPDF/2025.7.4": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/QuestPDF.targets": {}
         }
       },
       "RBush.Signed/4.0.0": {
@@ -4894,6 +5112,41 @@
           }
         }
       },
+      "CommunityToolkit.Maui/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "8.0.0",
+          "Microsoft.Maui.Controls": "8.0.14",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.14"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Core": "8.0.14",
+          "Microsoft.Maui.Essentials": "8.0.14"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "DocumentFormat.OpenXml/3.1.1": {
         "type": "package",
         "dependencies": {
@@ -5397,6 +5650,39 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "QuestPDF/2025.7.4": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "native": {
+          "runtimes/linux-arm64/native/libQuestPdfSkia.so": {},
+          "runtimes/linux-arm64/native/libqpdf.so": {}
+        },
+        "build": {
+          "buildTransitive/QuestPDF.targets": {}
         }
       },
       "RBush.Signed/4.0.0": {
@@ -7316,6 +7602,41 @@
           }
         }
       },
+      "CommunityToolkit.Maui/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "8.0.0",
+          "Microsoft.Maui.Controls": "8.0.14",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.14"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Core": "8.0.14",
+          "Microsoft.Maui.Essentials": "8.0.14"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "DocumentFormat.OpenXml/3.1.1": {
         "type": "package",
         "dependencies": {
@@ -7819,6 +8140,39 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "QuestPDF/2025.7.4": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "native": {
+          "runtimes/linux-x64/native/libQuestPdfSkia.so": {},
+          "runtimes/linux-x64/native/libqpdf.so": {}
+        },
+        "build": {
+          "buildTransitive/QuestPDF.targets": {}
         }
       },
       "RBush.Signed/4.0.0": {
@@ -9738,6 +10092,41 @@
           }
         }
       },
+      "CommunityToolkit.Maui/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "8.0.0",
+          "Microsoft.Maui.Controls": "8.0.14",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.14"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Core": "8.0.14",
+          "Microsoft.Maui.Essentials": "8.0.14"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "DocumentFormat.OpenXml/3.1.1": {
         "type": "package",
         "dependencies": {
@@ -10241,6 +10630,35 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "QuestPDF/2025.7.4": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/QuestPDF.targets": {}
         }
       },
       "RBush.Signed/4.0.0": {
@@ -12160,6 +12578,41 @@
           }
         }
       },
+      "CommunityToolkit.Maui/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "8.0.0",
+          "Microsoft.Maui.Controls": "8.0.14",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.14"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Core": "8.0.14",
+          "Microsoft.Maui.Essentials": "8.0.14"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "DocumentFormat.OpenXml/3.1.1": {
         "type": "package",
         "dependencies": {
@@ -12663,6 +13116,35 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "QuestPDF/2025.7.4": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/QuestPDF.targets": {}
         }
       },
       "RBush.Signed/4.0.0": {
@@ -14579,6 +15061,41 @@
           }
         }
       },
+      "CommunityToolkit.Maui/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "8.0.0",
+          "Microsoft.Maui.Controls": "8.0.14",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.14"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Core": "8.0.14",
+          "Microsoft.Maui.Essentials": "8.0.14"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "DocumentFormat.OpenXml/3.1.1": {
         "type": "package",
         "dependencies": {
@@ -15082,6 +15599,35 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "QuestPDF/2025.7.4": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/QuestPDF.targets": {}
         }
       },
       "RBush.Signed/4.0.0": {
@@ -16998,6 +17544,41 @@
           }
         }
       },
+      "CommunityToolkit.Maui/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "8.0.0",
+          "Microsoft.Maui.Controls": "8.0.14",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.14"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Core": "8.0.14",
+          "Microsoft.Maui.Essentials": "8.0.14"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "DocumentFormat.OpenXml/3.1.1": {
         "type": "package",
         "dependencies": {
@@ -17501,6 +18082,35 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "QuestPDF/2025.7.4": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/QuestPDF.targets": {}
         }
       },
       "RBush.Signed/4.0.0": {
@@ -19417,6 +20027,41 @@
           }
         }
       },
+      "CommunityToolkit.Maui/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "8.0.0",
+          "Microsoft.Maui.Controls": "8.0.14",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.14"
+        },
+        "compile": {
+          "lib/net8.0-ios17.2/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios17.2/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Core": "8.0.14",
+          "Microsoft.Maui.Essentials": "8.0.14"
+        },
+        "compile": {
+          "lib/net8.0-ios17.2/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios17.2/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "DocumentFormat.OpenXml/3.1.1": {
         "type": "package",
         "dependencies": {
@@ -19892,6 +20537,125 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "QuestPDF/2025.7.4": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/QuestPDF.targets": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-arm64/native/libQuestPdfSkia.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-arm64/native/libqpdf.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-musl-x64/native/libQuestPdfSkia.so": {
+            "assetType": "native",
+            "rid": "linux-musl-x64"
+          },
+          "runtimes/linux-musl-x64/native/libqpdf.so": {
+            "assetType": "native",
+            "rid": "linux-musl-x64"
+          },
+          "runtimes/linux-x64/native/libQuestPdfSkia.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libqpdf.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx-arm64/native/libQuestPdfSkia.dylib": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-arm64/native/libqpdf.dylib": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-x64/native/libQuestPdfSkia.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/libqpdf.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-x64/native/QuestPdfSkia.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/libgcc_s_seh-1.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/libstdc++-6.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/libwinpthread-1.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/qpdf.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/zlib1.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/QuestPdfSkia.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/libgcc_s_dw2-1.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/libstdc++-6.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/libwinpthread-1.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/qpdf.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/zlib1.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
         }
       },
       "RBush.Signed/4.0.0": {
@@ -20072,6 +20836,41 @@
           }
         }
       },
+      "CommunityToolkit.Maui/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "8.0.0",
+          "Microsoft.Maui.Controls": "8.0.14",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.14"
+        },
+        "compile": {
+          "lib/net8.0-ios17.2/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios17.2/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Core": "8.0.14",
+          "Microsoft.Maui.Essentials": "8.0.14"
+        },
+        "compile": {
+          "lib/net8.0-ios17.2/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios17.2/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "DocumentFormat.OpenXml/3.1.1": {
         "type": "package",
         "dependencies": {
@@ -20547,6 +21346,35 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "QuestPDF/2025.7.4": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/QuestPDF.targets": {}
         }
       },
       "RBush.Signed/4.0.0": {
@@ -20701,6 +21529,41 @@
           }
         }
       },
+      "CommunityToolkit.Maui/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "8.0.0",
+          "Microsoft.Maui.Controls": "8.0.14",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.14"
+        },
+        "compile": {
+          "lib/net8.0-ios17.2/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios17.2/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Core": "8.0.14",
+          "Microsoft.Maui.Essentials": "8.0.14"
+        },
+        "compile": {
+          "lib/net8.0-ios17.2/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios17.2/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "DocumentFormat.OpenXml/3.1.1": {
         "type": "package",
         "dependencies": {
@@ -21176,6 +22039,39 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "QuestPDF/2025.7.4": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "native": {
+          "runtimes/linux-arm64/native/libQuestPdfSkia.so": {},
+          "runtimes/linux-arm64/native/libqpdf.so": {}
+        },
+        "build": {
+          "buildTransitive/QuestPDF.targets": {}
         }
       },
       "RBush.Signed/4.0.0": {
@@ -21330,6 +22226,41 @@
           }
         }
       },
+      "CommunityToolkit.Maui/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "8.0.0",
+          "Microsoft.Maui.Controls": "8.0.14",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.14"
+        },
+        "compile": {
+          "lib/net8.0-ios17.2/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios17.2/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Core": "8.0.14",
+          "Microsoft.Maui.Essentials": "8.0.14"
+        },
+        "compile": {
+          "lib/net8.0-ios17.2/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios17.2/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "DocumentFormat.OpenXml/3.1.1": {
         "type": "package",
         "dependencies": {
@@ -21805,6 +22736,39 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "QuestPDF/2025.7.4": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "native": {
+          "runtimes/linux-x64/native/libQuestPdfSkia.so": {},
+          "runtimes/linux-x64/native/libqpdf.so": {}
+        },
+        "build": {
+          "buildTransitive/QuestPDF.targets": {}
         }
       },
       "RBush.Signed/4.0.0": {
@@ -21959,6 +22923,41 @@
           }
         }
       },
+      "CommunityToolkit.Maui/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "8.0.0",
+          "Microsoft.Maui.Controls": "8.0.14",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.14"
+        },
+        "compile": {
+          "lib/net8.0-ios17.2/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios17.2/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Core": "8.0.14",
+          "Microsoft.Maui.Essentials": "8.0.14"
+        },
+        "compile": {
+          "lib/net8.0-ios17.2/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios17.2/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "DocumentFormat.OpenXml/3.1.1": {
         "type": "package",
         "dependencies": {
@@ -22434,6 +23433,35 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "QuestPDF/2025.7.4": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/QuestPDF.targets": {}
         }
       },
       "RBush.Signed/4.0.0": {
@@ -22588,6 +23616,41 @@
           }
         }
       },
+      "CommunityToolkit.Maui/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "8.0.0",
+          "Microsoft.Maui.Controls": "8.0.14",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.14"
+        },
+        "compile": {
+          "lib/net8.0-ios17.2/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios17.2/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Core": "8.0.14",
+          "Microsoft.Maui.Essentials": "8.0.14"
+        },
+        "compile": {
+          "lib/net8.0-ios17.2/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios17.2/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "DocumentFormat.OpenXml/3.1.1": {
         "type": "package",
         "dependencies": {
@@ -23063,6 +24126,35 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "QuestPDF/2025.7.4": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/QuestPDF.targets": {}
         }
       },
       "RBush.Signed/4.0.0": {
@@ -23222,6 +24314,41 @@
           }
         }
       },
+      "CommunityToolkit.Maui/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "8.0.0",
+          "Microsoft.Maui.Controls": "8.0.14",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.14"
+        },
+        "compile": {
+          "lib/net8.0-ios17.2/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios17.2/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Core": "8.0.14",
+          "Microsoft.Maui.Essentials": "8.0.14"
+        },
+        "compile": {
+          "lib/net8.0-ios17.2/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios17.2/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "DocumentFormat.OpenXml/3.1.1": {
         "type": "package",
         "dependencies": {
@@ -23697,6 +24824,35 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "QuestPDF/2025.7.4": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/QuestPDF.targets": {}
         }
       },
       "RBush.Signed/4.0.0": {
@@ -23856,6 +25012,41 @@
           }
         }
       },
+      "CommunityToolkit.Maui/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "8.0.0",
+          "Microsoft.Maui.Controls": "8.0.14",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.14"
+        },
+        "compile": {
+          "lib/net8.0-ios17.2/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios17.2/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Core": "8.0.14",
+          "Microsoft.Maui.Essentials": "8.0.14"
+        },
+        "compile": {
+          "lib/net8.0-ios17.2/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios17.2/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "DocumentFormat.OpenXml/3.1.1": {
         "type": "package",
         "dependencies": {
@@ -24333,6 +25524,35 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
+      "Newtonsoft.Json/13.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "QuestPDF/2025.7.4": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/QuestPDF.targets": {}
+        }
+      },
       "RBush.Signed/4.0.0": {
         "type": "package",
         "compile": {
@@ -24481,6 +25701,41 @@
         },
         "runtime": {
           "lib/netstandard2.1/ClosedXML.Parser.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "8.0.0",
+          "Microsoft.Maui.Controls": "8.0.14",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.14"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst17.2/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.2/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Core": "8.0.14",
+          "Microsoft.Maui.Essentials": "8.0.14"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst17.2/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.2/CommunityToolkit.Maui.Core.dll": {
             "related": ".xml"
           }
         }
@@ -24960,6 +26215,125 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "QuestPDF/2025.7.4": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/QuestPDF.targets": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-arm64/native/libQuestPdfSkia.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-arm64/native/libqpdf.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-musl-x64/native/libQuestPdfSkia.so": {
+            "assetType": "native",
+            "rid": "linux-musl-x64"
+          },
+          "runtimes/linux-musl-x64/native/libqpdf.so": {
+            "assetType": "native",
+            "rid": "linux-musl-x64"
+          },
+          "runtimes/linux-x64/native/libQuestPdfSkia.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libqpdf.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx-arm64/native/libQuestPdfSkia.dylib": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-arm64/native/libqpdf.dylib": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-x64/native/libQuestPdfSkia.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/libqpdf.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-x64/native/QuestPdfSkia.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/libgcc_s_seh-1.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/libstdc++-6.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/libwinpthread-1.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/qpdf.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/zlib1.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/QuestPdfSkia.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/libgcc_s_dw2-1.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/libstdc++-6.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/libwinpthread-1.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/qpdf.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/zlib1.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
         }
       },
       "RBush.Signed/4.0.0": {
@@ -25120,6 +26494,41 @@
           }
         }
       },
+      "CommunityToolkit.Maui/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "8.0.0",
+          "Microsoft.Maui.Controls": "8.0.14",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.14"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst17.2/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.2/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Core": "8.0.14",
+          "Microsoft.Maui.Essentials": "8.0.14"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst17.2/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.2/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "DocumentFormat.OpenXml/3.1.1": {
         "type": "package",
         "dependencies": {
@@ -25595,6 +27004,35 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "QuestPDF/2025.7.4": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/QuestPDF.targets": {}
         }
       },
       "RBush.Signed/4.0.0": {
@@ -25749,6 +27187,41 @@
           }
         }
       },
+      "CommunityToolkit.Maui/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "8.0.0",
+          "Microsoft.Maui.Controls": "8.0.14",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.14"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst17.2/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.2/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Core": "8.0.14",
+          "Microsoft.Maui.Essentials": "8.0.14"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst17.2/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.2/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "DocumentFormat.OpenXml/3.1.1": {
         "type": "package",
         "dependencies": {
@@ -26224,6 +27697,39 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "QuestPDF/2025.7.4": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "native": {
+          "runtimes/linux-arm64/native/libQuestPdfSkia.so": {},
+          "runtimes/linux-arm64/native/libqpdf.so": {}
+        },
+        "build": {
+          "buildTransitive/QuestPDF.targets": {}
         }
       },
       "RBush.Signed/4.0.0": {
@@ -26378,6 +27884,41 @@
           }
         }
       },
+      "CommunityToolkit.Maui/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "8.0.0",
+          "Microsoft.Maui.Controls": "8.0.14",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.14"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst17.2/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.2/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Core": "8.0.14",
+          "Microsoft.Maui.Essentials": "8.0.14"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst17.2/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.2/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "DocumentFormat.OpenXml/3.1.1": {
         "type": "package",
         "dependencies": {
@@ -26853,6 +28394,39 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "QuestPDF/2025.7.4": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "native": {
+          "runtimes/linux-x64/native/libQuestPdfSkia.so": {},
+          "runtimes/linux-x64/native/libqpdf.so": {}
+        },
+        "build": {
+          "buildTransitive/QuestPDF.targets": {}
         }
       },
       "RBush.Signed/4.0.0": {
@@ -27007,6 +28581,41 @@
           }
         }
       },
+      "CommunityToolkit.Maui/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "8.0.0",
+          "Microsoft.Maui.Controls": "8.0.14",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.14"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst17.2/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.2/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Core": "8.0.14",
+          "Microsoft.Maui.Essentials": "8.0.14"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst17.2/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.2/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "DocumentFormat.OpenXml/3.1.1": {
         "type": "package",
         "dependencies": {
@@ -27482,6 +29091,35 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "QuestPDF/2025.7.4": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/QuestPDF.targets": {}
         }
       },
       "RBush.Signed/4.0.0": {
@@ -27636,6 +29274,41 @@
           }
         }
       },
+      "CommunityToolkit.Maui/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "8.0.0",
+          "Microsoft.Maui.Controls": "8.0.14",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.14"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst17.2/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.2/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Core": "8.0.14",
+          "Microsoft.Maui.Essentials": "8.0.14"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst17.2/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.2/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "DocumentFormat.OpenXml/3.1.1": {
         "type": "package",
         "dependencies": {
@@ -28111,6 +29784,35 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "QuestPDF/2025.7.4": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/QuestPDF.targets": {}
         }
       },
       "RBush.Signed/4.0.0": {
@@ -28265,6 +29967,41 @@
           }
         }
       },
+      "CommunityToolkit.Maui/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "8.0.0",
+          "Microsoft.Maui.Controls": "8.0.14",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.14"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst17.2/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.2/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Core": "8.0.14",
+          "Microsoft.Maui.Essentials": "8.0.14"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst17.2/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.2/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "DocumentFormat.OpenXml/3.1.1": {
         "type": "package",
         "dependencies": {
@@ -28740,6 +30477,35 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "QuestPDF/2025.7.4": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/QuestPDF.targets": {}
         }
       },
       "RBush.Signed/4.0.0": {
@@ -28897,6 +30663,41 @@
           }
         }
       },
+      "CommunityToolkit.Maui/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "8.0.0",
+          "Microsoft.Maui.Controls": "8.0.14",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.14"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst17.2/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.2/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Core": "8.0.14",
+          "Microsoft.Maui.Essentials": "8.0.14"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst17.2/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.2/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "DocumentFormat.OpenXml/3.1.1": {
         "type": "package",
         "dependencies": {
@@ -29374,6 +31175,35 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
+      "Newtonsoft.Json/13.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "QuestPDF/2025.7.4": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/QuestPDF.targets": {}
+        }
+      },
       "RBush.Signed/4.0.0": {
         "type": "package",
         "compile": {
@@ -29522,6 +31352,42 @@
         },
         "runtime": {
           "lib/netstandard2.1/ClosedXML.Parser.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "8.0.0",
+          "Microsoft.Maui.Controls": "8.0.14",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.14"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Core": "8.0.14",
+          "Microsoft.Maui.Essentials": "8.0.14",
+          "System.Speech": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/CommunityToolkit.Maui.Core.dll": {
             "related": ".xml"
           }
         }
@@ -30172,6 +32038,125 @@
           }
         }
       },
+      "Newtonsoft.Json/13.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "QuestPDF/2025.7.4": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/QuestPDF.targets": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-arm64/native/libQuestPdfSkia.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-arm64/native/libqpdf.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-musl-x64/native/libQuestPdfSkia.so": {
+            "assetType": "native",
+            "rid": "linux-musl-x64"
+          },
+          "runtimes/linux-musl-x64/native/libqpdf.so": {
+            "assetType": "native",
+            "rid": "linux-musl-x64"
+          },
+          "runtimes/linux-x64/native/libQuestPdfSkia.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libqpdf.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx-arm64/native/libQuestPdfSkia.dylib": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-arm64/native/libqpdf.dylib": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-x64/native/libQuestPdfSkia.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/libqpdf.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-x64/native/QuestPdfSkia.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/libgcc_s_seh-1.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/libstdc++-6.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/libwinpthread-1.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/qpdf.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/zlib1.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/QuestPdfSkia.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/libgcc_s_dw2-1.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/libstdc++-6.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/libwinpthread-1.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/qpdf.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/zlib1.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
       "RBush.Signed/4.0.0": {
         "type": "package",
         "compile": {
@@ -30348,6 +32333,24 @@
         "build": {
           "buildTransitive/net6.0/_._": {}
         }
+      },
+      "System.Speech/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Speech.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/System.Speech.dll": {}
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net8.0/System.Speech.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
       }
     },
     "net8.0-windows10.0.19041/android-arm": {
@@ -30380,6 +32383,42 @@
         },
         "runtime": {
           "lib/netstandard2.1/ClosedXML.Parser.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "8.0.0",
+          "Microsoft.Maui.Controls": "8.0.14",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.14"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Core": "8.0.14",
+          "Microsoft.Maui.Essentials": "8.0.14",
+          "System.Speech": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/CommunityToolkit.Maui.Core.dll": {
             "related": ".xml"
           }
         }
@@ -30990,6 +33029,35 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
+      "Newtonsoft.Json/13.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "QuestPDF/2025.7.4": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/QuestPDF.targets": {}
+        }
+      },
       "RBush.Signed/4.0.0": {
         "type": "package",
         "compile": {
@@ -31110,6 +33178,18 @@
           "lib/net8.0/System.IO.Packaging.dll": {
             "related": ".xml"
           }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Speech/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Speech.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/System.Speech.dll": {}
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
@@ -31150,6 +33230,42 @@
           }
         }
       },
+      "CommunityToolkit.Maui/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "8.0.0",
+          "Microsoft.Maui.Controls": "8.0.14",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.14"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Core": "8.0.14",
+          "Microsoft.Maui.Essentials": "8.0.14",
+          "System.Speech": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "DocumentFormat.OpenXml/3.1.1": {
         "type": "package",
         "dependencies": {
@@ -31756,6 +33872,39 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
+      "Newtonsoft.Json/13.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "QuestPDF/2025.7.4": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "native": {
+          "runtimes/linux-arm64/native/libQuestPdfSkia.so": {},
+          "runtimes/linux-arm64/native/libqpdf.so": {}
+        },
+        "build": {
+          "buildTransitive/QuestPDF.targets": {}
+        }
+      },
       "RBush.Signed/4.0.0": {
         "type": "package",
         "compile": {
@@ -31876,6 +34025,18 @@
           "lib/net8.0/System.IO.Packaging.dll": {
             "related": ".xml"
           }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Speech/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Speech.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/System.Speech.dll": {}
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
@@ -31916,6 +34077,42 @@
           }
         }
       },
+      "CommunityToolkit.Maui/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "8.0.0",
+          "Microsoft.Maui.Controls": "8.0.14",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.14"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Core": "8.0.14",
+          "Microsoft.Maui.Essentials": "8.0.14",
+          "System.Speech": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "DocumentFormat.OpenXml/3.1.1": {
         "type": "package",
         "dependencies": {
@@ -32522,6 +34719,39 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
+      "Newtonsoft.Json/13.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "QuestPDF/2025.7.4": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "native": {
+          "runtimes/linux-x64/native/libQuestPdfSkia.so": {},
+          "runtimes/linux-x64/native/libqpdf.so": {}
+        },
+        "build": {
+          "buildTransitive/QuestPDF.targets": {}
+        }
+      },
       "RBush.Signed/4.0.0": {
         "type": "package",
         "compile": {
@@ -32642,6 +34872,18 @@
           "lib/net8.0/System.IO.Packaging.dll": {
             "related": ".xml"
           }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Speech/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Speech.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/System.Speech.dll": {}
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
@@ -32682,6 +34924,42 @@
           }
         }
       },
+      "CommunityToolkit.Maui/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "8.0.0",
+          "Microsoft.Maui.Controls": "8.0.14",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.14"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Core": "8.0.14",
+          "Microsoft.Maui.Essentials": "8.0.14",
+          "System.Speech": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "DocumentFormat.OpenXml/3.1.1": {
         "type": "package",
         "dependencies": {
@@ -33288,6 +35566,35 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
+      "Newtonsoft.Json/13.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "QuestPDF/2025.7.4": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/QuestPDF.targets": {}
+        }
+      },
       "RBush.Signed/4.0.0": {
         "type": "package",
         "compile": {
@@ -33408,6 +35715,18 @@
           "lib/net8.0/System.IO.Packaging.dll": {
             "related": ".xml"
           }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Speech/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Speech.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/System.Speech.dll": {}
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
@@ -33448,6 +35767,42 @@
           }
         }
       },
+      "CommunityToolkit.Maui/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "8.0.0",
+          "Microsoft.Maui.Controls": "8.0.14",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.14"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Core": "8.0.14",
+          "Microsoft.Maui.Essentials": "8.0.14",
+          "System.Speech": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "DocumentFormat.OpenXml/3.1.1": {
         "type": "package",
         "dependencies": {
@@ -34054,6 +36409,35 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
+      "Newtonsoft.Json/13.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "QuestPDF/2025.7.4": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/QuestPDF.targets": {}
+        }
+      },
       "RBush.Signed/4.0.0": {
         "type": "package",
         "compile": {
@@ -34174,6 +36558,18 @@
           "lib/net8.0/System.IO.Packaging.dll": {
             "related": ".xml"
           }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Speech/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Speech.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/System.Speech.dll": {}
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
@@ -34214,6 +36610,42 @@
           }
         }
       },
+      "CommunityToolkit.Maui/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "8.0.0",
+          "Microsoft.Maui.Controls": "8.0.14",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.14"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Core": "8.0.14",
+          "Microsoft.Maui.Essentials": "8.0.14",
+          "System.Speech": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "DocumentFormat.OpenXml/3.1.1": {
         "type": "package",
         "dependencies": {
@@ -34820,6 +37252,35 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
+      "Newtonsoft.Json/13.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "QuestPDF/2025.7.4": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/QuestPDF.targets": {}
+        }
+      },
       "RBush.Signed/4.0.0": {
         "type": "package",
         "compile": {
@@ -34944,6 +37405,18 @@
         "build": {
           "buildTransitive/net6.0/_._": {}
         }
+      },
+      "System.Speech/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Speech.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/System.Speech.dll": {}
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
       }
     },
     "net8.0-windows10.0.19041/win10-x64": {
@@ -34976,6 +37449,42 @@
         },
         "runtime": {
           "lib/netstandard2.1/ClosedXML.Parser.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "8.0.0",
+          "Microsoft.Maui.Controls": "8.0.14",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.14"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Core": "8.0.14",
+          "Microsoft.Maui.Essentials": "8.0.14",
+          "System.Speech": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/CommunityToolkit.Maui.Core.dll": {
             "related": ".xml"
           }
         }
@@ -35592,6 +38101,43 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
+      "Newtonsoft.Json/13.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "QuestPDF/2025.7.4": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "native": {
+          "runtimes/win-x64/native/QuestPdfSkia.dll": {},
+          "runtimes/win-x64/native/libgcc_s_seh-1.dll": {},
+          "runtimes/win-x64/native/libstdc++-6.dll": {},
+          "runtimes/win-x64/native/libwinpthread-1.dll": {},
+          "runtimes/win-x64/native/qpdf.dll": {},
+          "runtimes/win-x64/native/zlib1.dll": {}
+        },
+        "build": {
+          "buildTransitive/QuestPDF.targets": {}
+        }
+      },
       "RBush.Signed/4.0.0": {
         "type": "package",
         "compile": {
@@ -35723,6 +38269,18 @@
         "build": {
           "buildTransitive/net6.0/_._": {}
         }
+      },
+      "System.Speech/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Speech.dll": {}
+        },
+        "runtime": {
+          "runtimes/win/lib/net8.0/System.Speech.dll": {}
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
       }
     }
   },
@@ -35759,6 +38317,59 @@
         "lib/netstandard2.0/ClosedXML.Parser.xml",
         "lib/netstandard2.1/ClosedXML.Parser.dll",
         "lib/netstandard2.1/ClosedXML.Parser.xml"
+      ]
+    },
+    "CommunityToolkit.Maui/8.0.0": {
+      "sha512": "GO8x688KPm76UWLSqYElw510+GQF7zO9FU8RillE1hn0kySdBPUZNbwx1tWnBoJZSLJwxKUEONhHsMVIMsEXyw==",
+      "type": "package",
+      "path": "communitytoolkit.maui/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ReadMe.txt",
+        "analyzers/dotnet/cs/CommunityToolkit.Maui.Analyzers.CodeFixes.dll",
+        "analyzers/dotnet/cs/CommunityToolkit.Maui.Analyzers.dll",
+        "analyzers/dotnet/cs/CommunityToolkit.Maui.SourceGenerators.dll",
+        "communitytoolkit.maui.8.0.0.nupkg.sha512",
+        "communitytoolkit.maui.nuspec",
+        "icon.png",
+        "lib/net8.0-android34.0/CommunityToolkit.Maui.dll",
+        "lib/net8.0-android34.0/CommunityToolkit.Maui.xml",
+        "lib/net8.0-ios17.2/CommunityToolkit.Maui.dll",
+        "lib/net8.0-ios17.2/CommunityToolkit.Maui.xml",
+        "lib/net8.0-maccatalyst17.2/CommunityToolkit.Maui.dll",
+        "lib/net8.0-maccatalyst17.2/CommunityToolkit.Maui.xml",
+        "lib/net8.0-tizen8.0/CommunityToolkit.Maui.dll",
+        "lib/net8.0-tizen8.0/CommunityToolkit.Maui.xml",
+        "lib/net8.0-windows10.0.19041/CommunityToolkit.Maui.dll",
+        "lib/net8.0-windows10.0.19041/CommunityToolkit.Maui.xml",
+        "lib/net8.0/CommunityToolkit.Maui.dll",
+        "lib/net8.0/CommunityToolkit.Maui.xml"
+      ]
+    },
+    "CommunityToolkit.Maui.Core/8.0.0": {
+      "sha512": "pGMqh2cm82CDcEnzXqxjKOCIFRg28ilCPevm36eEBnZAjGmBG9lK0r7zf11aOFwMvIt44LNONAoQb+1jmjTQzg==",
+      "type": "package",
+      "path": "communitytoolkit.maui.core/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ReadMe.txt",
+        "communitytoolkit.maui.core.8.0.0.nupkg.sha512",
+        "communitytoolkit.maui.core.nuspec",
+        "icon.png",
+        "lib/net8.0-android34.0/CommunityToolkit.Maui.Core.dll",
+        "lib/net8.0-android34.0/CommunityToolkit.Maui.Core.xml",
+        "lib/net8.0-ios17.2/CommunityToolkit.Maui.Core.dll",
+        "lib/net8.0-ios17.2/CommunityToolkit.Maui.Core.xml",
+        "lib/net8.0-maccatalyst17.2/CommunityToolkit.Maui.Core.dll",
+        "lib/net8.0-maccatalyst17.2/CommunityToolkit.Maui.Core.xml",
+        "lib/net8.0-tizen8.0/CommunityToolkit.Maui.Core.dll",
+        "lib/net8.0-tizen8.0/CommunityToolkit.Maui.Core.xml",
+        "lib/net8.0-windows10.0.19041/CommunityToolkit.Maui.Core.dll",
+        "lib/net8.0-windows10.0.19041/CommunityToolkit.Maui.Core.xml",
+        "lib/net8.0/CommunityToolkit.Maui.Core.dll",
+        "lib/net8.0/CommunityToolkit.Maui.Core.xml"
       ]
     },
     "DocumentFormat.OpenXml/3.1.1": {
@@ -38105,6 +40716,120 @@
         "tools/x86/GenXbf.dll"
       ]
     },
+    "Newtonsoft.Json/13.0.4": {
+      "sha512": "pdgNNMai3zv51W5aq268sujXUyx7SNdE2bj1wZcWjAQrKMFZV260lbqYop1d2GM67JI1huLRwxo9ZqnfF/lC6A==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/net6.0/Newtonsoft.Json.dll",
+        "lib/net6.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.4.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "QuestPDF/2025.7.4": {
+      "sha512": "XeiWilwLnqP2BIvDG+vh1+fjUoNWczPee5qifw8VppVOH7+vmxgoxG/KANcKftgqAfXiRQ++sXOSLPZRvXxD2g==",
+      "type": "package",
+      "path": "questpdf/2025.7.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Contributors.md",
+        "Description.md",
+        "Documentation.xml",
+        "ExternalDependencyLicenses/emsdk.txt",
+        "ExternalDependencyLicenses/expat.txt",
+        "ExternalDependencyLicenses/harfbuzz.txt",
+        "ExternalDependencyLicenses/icu.txt",
+        "ExternalDependencyLicenses/libjpeg-turbo.txt",
+        "ExternalDependencyLicenses/libpng.txt",
+        "ExternalDependencyLicenses/libwebp.txt",
+        "ExternalDependencyLicenses/ninja-build.txt",
+        "ExternalDependencyLicenses/qpdf.txt",
+        "ExternalDependencyLicenses/readme.txt",
+        "ExternalDependencyLicenses/skia.txt",
+        "ExternalDependencyLicenses/wuffs.txt",
+        "ExternalDependencyLicenses/zlib.txt",
+        "LatinWords.txt",
+        "LatoFont/Lato-Black.ttf",
+        "LatoFont/Lato-BlackItalic.ttf",
+        "LatoFont/Lato-Bold.ttf",
+        "LatoFont/Lato-BoldItalic.ttf",
+        "LatoFont/Lato-ExtraBold.ttf",
+        "LatoFont/Lato-ExtraBoldItalic.ttf",
+        "LatoFont/Lato-ExtraLight.ttf",
+        "LatoFont/Lato-ExtraLightItalic.ttf",
+        "LatoFont/Lato-Italic.ttf",
+        "LatoFont/Lato-Light.ttf",
+        "LatoFont/Lato-LightItalic.ttf",
+        "LatoFont/Lato-Medium.ttf",
+        "LatoFont/Lato-MediumItalic.ttf",
+        "LatoFont/Lato-Regular.ttf",
+        "LatoFont/Lato-SemiBold.ttf",
+        "LatoFont/Lato-SemiBoldItalic.ttf",
+        "LatoFont/Lato-Thin.ttf",
+        "LatoFont/Lato-ThinItalic.ttf",
+        "LatoFont/OFL.txt",
+        "Logo.png",
+        "MimeTypes.csv",
+        "PackageLicense.md",
+        "README.md",
+        "ReleaseNotes.txt",
+        "build/QuestPDF.targets",
+        "build/net4/QuestPDF.targets",
+        "buildTransitive/QuestPDF.targets",
+        "buildTransitive/net4/QuestPDF.targets",
+        "lib/net6.0/QuestPDF.dll",
+        "lib/net6.0/QuestPDF.xml",
+        "lib/net8.0/QuestPDF.dll",
+        "lib/net8.0/QuestPDF.xml",
+        "lib/netstandard2.0/QuestPDF.dll",
+        "lib/netstandard2.0/QuestPDF.xml",
+        "questpdf.2025.7.4.nupkg.sha512",
+        "questpdf.nuspec",
+        "runtimes/linux-arm64/native/libQuestPdfSkia.so",
+        "runtimes/linux-arm64/native/libqpdf.so",
+        "runtimes/linux-musl-x64/native/libQuestPdfSkia.so",
+        "runtimes/linux-musl-x64/native/libqpdf.so",
+        "runtimes/linux-x64/native/libQuestPdfSkia.so",
+        "runtimes/linux-x64/native/libqpdf.so",
+        "runtimes/osx-arm64/native/libQuestPdfSkia.dylib",
+        "runtimes/osx-arm64/native/libqpdf.dylib",
+        "runtimes/osx-x64/native/libQuestPdfSkia.dylib",
+        "runtimes/osx-x64/native/libqpdf.dylib",
+        "runtimes/win-x64/native/QuestPdfSkia.dll",
+        "runtimes/win-x64/native/libgcc_s_seh-1.dll",
+        "runtimes/win-x64/native/libstdc++-6.dll",
+        "runtimes/win-x64/native/libwinpthread-1.dll",
+        "runtimes/win-x64/native/qpdf.dll",
+        "runtimes/win-x64/native/zlib1.dll",
+        "runtimes/win-x86/native/QuestPdfSkia.dll",
+        "runtimes/win-x86/native/libgcc_s_dw2-1.dll",
+        "runtimes/win-x86/native/libstdc++-6.dll",
+        "runtimes/win-x86/native/libwinpthread-1.dll",
+        "runtimes/win-x86/native/qpdf.dll",
+        "runtimes/win-x86/native/zlib1.dll"
+      ]
+    },
     "RBush.Signed/4.0.0": {
       "sha512": "aP5KQxL5RnFNGW1f0euYVBfCatkLw5iEzMRJcXKq8LWWP4Cp3+qoSq1tDDL2vvJ2rM0ychmVMa2VaEKLS6uX4w==",
       "type": "package",
@@ -38464,6 +41189,32 @@
         "lib/netstandard2.0/System.IO.Packaging.xml",
         "system.io.packaging.8.0.1.nupkg.sha512",
         "system.io.packaging.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Speech/8.0.0": {
+      "sha512": "CNuiA6vb95Oe5PRjClZEBiaju31vwB8OIeCgeSBXyZL6+MS4RVVB2X/C11z0xCkooHE3Vy91nM2z76emIzR+sg==",
+      "type": "package",
+      "path": "system.speech/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Speech.targets",
+        "lib/net462/_._",
+        "lib/net6.0/System.Speech.dll",
+        "lib/net7.0/System.Speech.dll",
+        "lib/net8.0/System.Speech.dll",
+        "lib/netstandard2.0/System.Speech.dll",
+        "runtimes/win/lib/net6.0/System.Speech.dll",
+        "runtimes/win/lib/net7.0/System.Speech.dll",
+        "runtimes/win/lib/net8.0/System.Speech.dll",
+        "system.speech.8.0.0.nupkg.sha512",
+        "system.speech.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
@@ -40508,37 +43259,49 @@
   "projectFileDependencyGroups": {
     "net8.0-android34.0": [
       "ClosedXML >= 0.105.0",
+      "CommunityToolkit.Maui >= 8.0.0",
       "Microcharts.Maui >= 1.0.1",
       "Microsoft.Extensions.Logging.Debug >= 8.0.1",
       "Microsoft.Maui.Controls >= 8.0.100",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.100",
       "Microsoft.NET.ILLink.Tasks >= 8.0.16",
+      "Newtonsoft.Json >= 13.0.4",
+      "QuestPDF >= 2025.7.4",
       "SkiaSharp >= 3.119.1"
     ],
     "net8.0-ios18.0": [
       "ClosedXML >= 0.105.0",
+      "CommunityToolkit.Maui >= 8.0.0",
       "Microcharts.Maui >= 1.0.1",
       "Microsoft.Extensions.Logging.Debug >= 8.0.1",
       "Microsoft.Maui.Controls >= 8.0.100",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.100",
       "Microsoft.NET.ILLink.Tasks >= 8.0.16",
+      "Newtonsoft.Json >= 13.0.4",
+      "QuestPDF >= 2025.7.4",
       "SkiaSharp >= 3.119.1"
     ],
     "net8.0-maccatalyst18.0": [
       "ClosedXML >= 0.105.0",
+      "CommunityToolkit.Maui >= 8.0.0",
       "Microcharts.Maui >= 1.0.1",
       "Microsoft.Extensions.Logging.Debug >= 8.0.1",
       "Microsoft.Maui.Controls >= 8.0.100",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.100",
       "Microsoft.NET.ILLink.Tasks >= 8.0.16",
+      "Newtonsoft.Json >= 13.0.4",
+      "QuestPDF >= 2025.7.4",
       "SkiaSharp >= 3.119.1"
     ],
     "net8.0-windows10.0.19041": [
       "ClosedXML >= 0.105.0",
+      "CommunityToolkit.Maui >= 8.0.0",
       "Microcharts.Maui >= 1.0.1",
       "Microsoft.Extensions.Logging.Debug >= 8.0.1",
       "Microsoft.Maui.Controls >= 8.0.100",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.100",
+      "Newtonsoft.Json >= 13.0.4",
+      "QuestPDF >= 2025.7.4",
       "SkiaSharp >= 3.119.1"
     ]
   },
@@ -40612,6 +43375,10 @@
             "target": "Package",
             "version": "[0.105.0, )"
           },
+          "CommunityToolkit.Maui": {
+            "target": "Package",
+            "version": "[8.0.0, )"
+          },
           "Microcharts.Maui": {
             "target": "Package",
             "version": "[1.0.1, )"
@@ -40633,6 +43400,14 @@
             "target": "Package",
             "version": "[8.0.16, )",
             "autoReferenced": true
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.4, )"
+          },
+          "QuestPDF": {
+            "target": "Package",
+            "version": "[2025.7.4, )"
           },
           "SkiaSharp": {
             "target": "Package",
@@ -40689,6 +43464,10 @@
             "target": "Package",
             "version": "[0.105.0, )"
           },
+          "CommunityToolkit.Maui": {
+            "target": "Package",
+            "version": "[8.0.0, )"
+          },
           "Microcharts.Maui": {
             "target": "Package",
             "version": "[1.0.1, )"
@@ -40710,6 +43489,14 @@
             "target": "Package",
             "version": "[8.0.16, )",
             "autoReferenced": true
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.4, )"
+          },
+          "QuestPDF": {
+            "target": "Package",
+            "version": "[2025.7.4, )"
           },
           "SkiaSharp": {
             "target": "Package",
@@ -40754,6 +43541,10 @@
             "target": "Package",
             "version": "[0.105.0, )"
           },
+          "CommunityToolkit.Maui": {
+            "target": "Package",
+            "version": "[8.0.0, )"
+          },
           "Microcharts.Maui": {
             "target": "Package",
             "version": "[1.0.1, )"
@@ -40775,6 +43566,14 @@
             "target": "Package",
             "version": "[8.0.16, )",
             "autoReferenced": true
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.4, )"
+          },
+          "QuestPDF": {
+            "target": "Package",
+            "version": "[2025.7.4, )"
           },
           "SkiaSharp": {
             "target": "Package",
@@ -40820,6 +43619,10 @@
             "target": "Package",
             "version": "[0.105.0, )"
           },
+          "CommunityToolkit.Maui": {
+            "target": "Package",
+            "version": "[8.0.0, )"
+          },
           "Microcharts.Maui": {
             "target": "Package",
             "version": "[1.0.1, )"
@@ -40835,6 +43638,14 @@
           "Microsoft.Maui.Controls.Compatibility": {
             "target": "Package",
             "version": "[8.0.100, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.4, )"
+          },
+          "QuestPDF": {
+            "target": "Package",
+            "version": "[2025.7.4, )"
           },
           "SkiaSharp": {
             "target": "Package",

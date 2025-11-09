@@ -43,7 +43,7 @@
 
 
     <!-- Search -->
-    <HorizontalStackLayout Spacing="15">
+    <HorizontalStackLayout Spacing="15" Padding="15">
         <Label 
             Text="Search:" 
             VerticalOptions="Center"

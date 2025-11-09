@@ -18,36 +18,36 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>G:\Dev\IT-Assets\IT-Assets\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
-    <RegisteredManifestChecksum>1F759D9E8DA0889623FB19A758E8C161AC8C167F12DF9520400A7F45649712CC</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>com.companyname.itassets_0.3.2.0_x64__g8zrz7bkacajr</RegisteredPackageMoniker>
+    <RegisteredManifestChecksum>878D9BC13DC794E84B642A1F667C945E44AA49667A2B64A76FC6E45306D14CA4</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>com.companyname.itassets_0.3.3.0_x64__g8zrz7bkacajr</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>com.companyname.itassets_g8zrz7bkacajr!App</RegisteredUserModeAppID>
     <RegisteredPackageID>com.companyname.itassets</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=Imad2025</RegisteredPackagePublisher>
-    <RegisteredVersion>0.3.2.0</RegisteredVersion>
+    <RegisteredVersion>0.3.3.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="G:\Dev\IT-Assets\IT-Assets\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-11-02T12:49:59.401</Modified>
+      <Modified>2025-11-06T11:12:22.522</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-11-02T11:05:34.656</Modified>
+      <Modified>2025-11-06T11:12:22.411</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\IT-Assets.runtimeconfig.json">
       <PackagePath>IT-Assets.runtimeconfig.json</PackagePath>
-      <Modified>2025-11-02T11:05:34.511</Modified>
+      <Modified>2025-11-06T11:11:20.638</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\IT-Assets.dll">
       <PackagePath>IT-Assets.dll</PackagePath>
-      <Modified>2025-11-02T11:05:33.685</Modified>
+      <Modified>2025-11-06T11:12:22.108</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>IT-Assets.exe</PackagePath>
-      <Modified>2025-11-02T11:05:33.717</Modified>
+      <Modified>2025-11-06T11:12:22.112</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -55,23 +55,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2025-10-30T11:36:23.945</Modified>
+      <Modified>2025-11-06T11:11:19.114</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2025-10-30T11:36:23.957</Modified>
+      <Modified>2025-11-06T11:11:19.130</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2025-10-30T11:36:23.969</Modified>
+      <Modified>2025-11-06T11:11:19.146</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2025-10-30T11:36:23.989</Modified>
+      <Modified>2025-11-06T11:11:19.164</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2025-10-30T11:36:24.056</Modified>
+      <Modified>2025-11-06T11:11:19.227</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
@@ -81,221 +81,297 @@
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
       <Modified>2025-10-16T10:04:50.024</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
-      <PackagePath>appicon.ico</PackagePath>
-      <Modified>2025-10-30T11:36:24.549</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
-      <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2025-10-30T11:36:24.544</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
-      <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2025-10-30T11:36:24.544</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
-      <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2025-10-30T11:36:24.544</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
-      <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2025-10-30T11:36:24.544</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
-      <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2025-10-30T11:36:24.544</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2025-10-30T11:36:24.549</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2025-10-30T11:36:24.544</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2025-10-30T11:36:24.544</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2025-10-30T11:36:24.544</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2025-10-30T11:36:24.544</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2025-10-30T11:36:24.549</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2025-10-30T11:36:24.549</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2025-10-30T11:36:24.549</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2025-10-30T11:36:24.549</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2025-10-30T11:36:24.549</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
-      <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2025-10-30T11:36:24.549</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
-      <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2025-10-30T11:36:24.549</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
-      <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2025-10-30T11:36:24.549</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
-      <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2025-10-30T11:36:24.549</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
-      <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2025-10-30T11:36:24.549</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
-      <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2025-10-30T11:36:24.549</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
-      <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2025-10-30T11:36:24.549</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
-      <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2025-10-30T11:36:24.549</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
-      <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2025-10-30T11:36:24.549</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
-      <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2025-10-30T11:36:24.549</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
-      <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2025-10-30T11:36:24.544</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
-      <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2025-10-30T11:36:24.544</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
-      <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2025-10-30T11:36:24.544</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
-      <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2025-10-30T11:36:24.544</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
-      <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2025-10-30T11:36:24.544</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
-      <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2025-10-30T11:36:24.544</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
-      <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2025-10-30T11:36:24.544</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
-      <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2025-10-30T11:36:24.544</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
-      <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2025-10-30T11:36:24.544</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
-      <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2025-10-30T11:36:24.544</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
-      <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2025-10-30T11:36:24.544</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
-      <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2025-10-30T11:36:24.544</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
-      <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2025-10-30T11:36:24.544</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
-      <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2025-10-30T11:36:24.544</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
-      <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2025-10-30T11:36:24.544</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
-      <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2025-10-30T11:36:24.544</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
-      <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2025-10-30T11:36:24.544</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
-      <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2025-10-30T11:36:24.544</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
-      <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2025-10-30T11:36:24.544</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
-      <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2025-10-30T11:36:24.544</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
-      <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2025-10-30T11:36:24.549</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
-      <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2025-10-30T11:36:24.549</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
-      <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2025-10-30T11:36:24.549</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
-      <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2025-10-30T11:36:24.549</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
-      <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2025-10-30T11:36:24.549</Modified>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\login2.scale-100.png">
+      <PackagePath>login2.scale-100.png</PackagePath>
+      <Modified>2025-11-06T11:12:21.748</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\login.scale-100.png">
       <PackagePath>login.scale-100.png</PackagePath>
-      <Modified>2025-10-30T11:36:24.544</Modified>
+      <Modified>2025-11-06T11:12:21.748</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\login2.scale-100.png">
-      <PackagePath>login2.scale-100.png</PackagePath>
-      <Modified>2025-10-30T11:36:24.544</Modified>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+      <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
+      <Modified>2025-11-06T11:12:21.748</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+      <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
+      <Modified>2025-11-06T11:12:21.748</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+      <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
+      <Modified>2025-11-06T11:12:21.748</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+      <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
+      <Modified>2025-11-06T11:12:21.748</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+      <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
+      <Modified>2025-11-06T11:12:21.748</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+      <PackagePath>appiconWideTile.scale-400.png</PackagePath>
+      <Modified>2025-11-06T11:12:21.748</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+      <PackagePath>appiconWideTile.scale-200.png</PackagePath>
+      <Modified>2025-11-06T11:12:21.748</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+      <PackagePath>appiconWideTile.scale-150.png</PackagePath>
+      <Modified>2025-11-06T11:12:21.748</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+      <PackagePath>appiconWideTile.scale-125.png</PackagePath>
+      <Modified>2025-11-06T11:12:21.748</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+      <PackagePath>appiconWideTile.scale-100.png</PackagePath>
+      <Modified>2025-11-06T11:12:21.748</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+      <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
+      <Modified>2025-11-06T11:12:21.748</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+      <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
+      <Modified>2025-11-06T11:12:21.748</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+      <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
+      <Modified>2025-11-06T11:12:21.748</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+      <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
+      <Modified>2025-11-06T11:12:21.748</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+      <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
+      <Modified>2025-11-06T11:12:21.748</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+      <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
+      <Modified>2025-11-06T11:12:21.748</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+      <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
+      <Modified>2025-11-06T11:12:21.748</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+      <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
+      <Modified>2025-11-06T11:12:21.748</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+      <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
+      <Modified>2025-11-06T11:12:21.748</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+      <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
+      <Modified>2025-11-06T11:12:21.748</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+      <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
+      <Modified>2025-11-06T11:12:21.748</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+      <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
+      <Modified>2025-11-06T11:12:21.748</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+      <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
+      <Modified>2025-11-06T11:12:21.748</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+      <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
+      <Modified>2025-11-06T11:12:21.748</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+      <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
+      <Modified>2025-11-06T11:12:21.748</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
+      <Modified>2025-11-06T11:12:21.748</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
+      <Modified>2025-11-06T11:12:21.748</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
+      <Modified>2025-11-06T11:12:21.748</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
+      <Modified>2025-11-06T11:12:21.748</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
+      <Modified>2025-11-06T11:12:21.762</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
+      <Modified>2025-11-06T11:12:21.762</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
+      <Modified>2025-11-06T11:12:21.762</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
+      <Modified>2025-11-06T11:12:21.762</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
+      <Modified>2025-11-06T11:12:21.762</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
+      <Modified>2025-11-06T11:12:21.762</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+      <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
+      <Modified>2025-11-06T11:12:21.762</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+      <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
+      <Modified>2025-11-06T11:12:21.762</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+      <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
+      <Modified>2025-11-06T11:12:21.762</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+      <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
+      <Modified>2025-11-06T11:12:21.762</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+      <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
+      <Modified>2025-11-06T11:12:21.762</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+      <PackagePath>appiconLogo.scale-400.png</PackagePath>
+      <Modified>2025-11-06T11:12:21.762</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+      <PackagePath>appiconLogo.scale-200.png</PackagePath>
+      <Modified>2025-11-06T11:12:21.762</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+      <PackagePath>appiconLogo.scale-150.png</PackagePath>
+      <Modified>2025-11-06T11:12:21.762</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+      <PackagePath>appiconLogo.scale-125.png</PackagePath>
+      <Modified>2025-11-06T11:12:21.762</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+      <PackagePath>appiconLogo.scale-100.png</PackagePath>
+      <Modified>2025-11-06T11:12:21.762</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+      <PackagePath>appicon.ico</PackagePath>
+      <Modified>2025-11-06T11:12:21.762</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+      <PackagePath>dotnet_bot.scale-400.png</PackagePath>
+      <Modified>2025-11-06T11:12:21.762</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+      <PackagePath>dotnet_bot.scale-200.png</PackagePath>
+      <Modified>2025-11-06T11:12:21.762</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+      <PackagePath>dotnet_bot.scale-150.png</PackagePath>
+      <Modified>2025-11-06T11:12:21.762</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+      <PackagePath>dotnet_bot.scale-125.png</PackagePath>
+      <Modified>2025-11-06T11:12:21.762</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+      <PackagePath>dotnet_bot.scale-100.png</PackagePath>
+      <Modified>2025-11-06T11:12:21.762</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\questpdf\2025.7.4\LatoFont\Lato-Black.ttf">
+      <PackagePath>LatoFont\Lato-Black.ttf</PackagePath>
+      <Modified>2025-11-03T21:25:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\questpdf\2025.7.4\LatoFont\Lato-BlackItalic.ttf">
+      <PackagePath>LatoFont\Lato-BlackItalic.ttf</PackagePath>
+      <Modified>2025-11-03T21:25:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\questpdf\2025.7.4\LatoFont\Lato-Bold.ttf">
+      <PackagePath>LatoFont\Lato-Bold.ttf</PackagePath>
+      <Modified>2025-11-03T21:25:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\questpdf\2025.7.4\LatoFont\Lato-BoldItalic.ttf">
+      <PackagePath>LatoFont\Lato-BoldItalic.ttf</PackagePath>
+      <Modified>2025-11-03T21:25:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\questpdf\2025.7.4\LatoFont\Lato-ExtraBold.ttf">
+      <PackagePath>LatoFont\Lato-ExtraBold.ttf</PackagePath>
+      <Modified>2025-11-03T21:25:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\questpdf\2025.7.4\LatoFont\Lato-ExtraBoldItalic.ttf">
+      <PackagePath>LatoFont\Lato-ExtraBoldItalic.ttf</PackagePath>
+      <Modified>2025-11-03T21:25:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\questpdf\2025.7.4\LatoFont\Lato-ExtraLight.ttf">
+      <PackagePath>LatoFont\Lato-ExtraLight.ttf</PackagePath>
+      <Modified>2025-11-03T21:25:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\questpdf\2025.7.4\LatoFont\Lato-ExtraLightItalic.ttf">
+      <PackagePath>LatoFont\Lato-ExtraLightItalic.ttf</PackagePath>
+      <Modified>2025-11-03T21:25:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\questpdf\2025.7.4\LatoFont\Lato-Italic.ttf">
+      <PackagePath>LatoFont\Lato-Italic.ttf</PackagePath>
+      <Modified>2025-11-03T21:25:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\questpdf\2025.7.4\LatoFont\Lato-Light.ttf">
+      <PackagePath>LatoFont\Lato-Light.ttf</PackagePath>
+      <Modified>2025-11-03T21:25:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\questpdf\2025.7.4\LatoFont\Lato-LightItalic.ttf">
+      <PackagePath>LatoFont\Lato-LightItalic.ttf</PackagePath>
+      <Modified>2025-11-03T21:25:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\questpdf\2025.7.4\LatoFont\Lato-Medium.ttf">
+      <PackagePath>LatoFont\Lato-Medium.ttf</PackagePath>
+      <Modified>2025-11-03T21:25:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\questpdf\2025.7.4\LatoFont\Lato-MediumItalic.ttf">
+      <PackagePath>LatoFont\Lato-MediumItalic.ttf</PackagePath>
+      <Modified>2025-11-03T21:25:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\questpdf\2025.7.4\LatoFont\Lato-Regular.ttf">
+      <PackagePath>LatoFont\Lato-Regular.ttf</PackagePath>
+      <Modified>2025-11-03T21:25:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\questpdf\2025.7.4\LatoFont\Lato-SemiBold.ttf">
+      <PackagePath>LatoFont\Lato-SemiBold.ttf</PackagePath>
+      <Modified>2025-11-03T21:25:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\questpdf\2025.7.4\LatoFont\Lato-SemiBoldItalic.ttf">
+      <PackagePath>LatoFont\Lato-SemiBoldItalic.ttf</PackagePath>
+      <Modified>2025-11-03T21:25:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\questpdf\2025.7.4\LatoFont\Lato-Thin.ttf">
+      <PackagePath>LatoFont\Lato-Thin.ttf</PackagePath>
+      <Modified>2025-11-03T21:25:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\questpdf\2025.7.4\LatoFont\Lato-ThinItalic.ttf">
+      <PackagePath>LatoFont\Lato-ThinItalic.ttf</PackagePath>
+      <Modified>2025-11-03T21:25:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\questpdf\2025.7.4\LatoFont\OFL.txt">
+      <PackagePath>LatoFont\OFL.txt</PackagePath>
+      <Modified>2025-11-03T21:25:26.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Dev\IT-Assets\IT-Assets\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\IT-Assets.deps.json">
       <PackagePath>IT-Assets.deps.json</PackagePath>
-      <Modified>2025-11-02T11:05:34.507</Modified>
+      <Modified>2025-11-06T11:12:22.380</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.57\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -312,6 +388,14 @@
     <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\closedxml.parser\2.0.0\lib\netstandard2.1\ClosedXML.Parser.dll">
       <PackagePath>ClosedXML.Parser.dll</PackagePath>
       <Modified>2025-04-03T23:11:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\communitytoolkit.maui\8.0.0\lib\net8.0-windows10.0.19041\CommunityToolkit.Maui.dll">
+      <PackagePath>CommunityToolkit.Maui.dll</PackagePath>
+      <Modified>2024-03-29T12:33:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\communitytoolkit.maui.core\8.0.0\lib\net8.0-windows10.0.19041\CommunityToolkit.Maui.Core.dll">
+      <PackagePath>CommunityToolkit.Maui.Core.dll</PackagePath>
+      <Modified>2024-03-29T12:33:26.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\documentformat.openxml\3.1.1\lib\net8.0\DocumentFormat.OpenXml.dll">
       <PackagePath>DocumentFormat.OpenXml.dll</PackagePath>
@@ -461,6 +545,14 @@
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
       <Modified>2024-08-01T22:37:28.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\newtonsoft.json\13.0.4\lib\net6.0\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2025-09-16T08:04:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\questpdf\2025.7.4\lib\net8.0\QuestPDF.dll">
+      <PackagePath>QuestPDF.dll</PackagePath>
+      <Modified>2025-11-03T21:28:34.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\rbush.signed\4.0.0\lib\net8.0\RBush.dll">
       <PackagePath>RBush.dll</PackagePath>
       <Modified>2024-11-18T15:48:48.000</Modified>
@@ -492,6 +584,10 @@
     <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\system.io.packaging\8.0.1\lib\net8.0\System.IO.Packaging.dll">
       <PackagePath>System.IO.Packaging.dll</PackagePath>
       <Modified>2024-09-16T23:09:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\system.speech\8.0.0\runtimes\win\lib\net8.0\System.Speech.dll">
+      <PackagePath>System.Speech.dll</PackagePath>
+      <Modified>2023-10-31T15:00:06.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.maui.controls.core\8.0.100\lib\net8.0-windows10.0.19041\ar\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>ar\Microsoft.Maui.Controls.resources.dll</PackagePath>
@@ -636,6 +732,30 @@
     <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.windowsappsdk\1.5.240802000\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
       <Modified>2024-06-25T19:48:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\questpdf\2025.7.4\runtimes\win-x64\native\QuestPdfSkia.dll">
+      <PackagePath>QuestPdfSkia.dll</PackagePath>
+      <Modified>2025-11-03T21:25:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\questpdf\2025.7.4\runtimes\win-x64\native\libgcc_s_seh-1.dll">
+      <PackagePath>libgcc_s_seh-1.dll</PackagePath>
+      <Modified>2025-11-03T21:25:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\questpdf\2025.7.4\runtimes\win-x64\native\libstdc++-6.dll">
+      <PackagePath>libstdc++-6.dll</PackagePath>
+      <Modified>2025-11-03T21:25:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\questpdf\2025.7.4\runtimes\win-x64\native\libwinpthread-1.dll">
+      <PackagePath>libwinpthread-1.dll</PackagePath>
+      <Modified>2025-11-03T21:25:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\questpdf\2025.7.4\runtimes\win-x64\native\qpdf.dll">
+      <PackagePath>qpdf.dll</PackagePath>
+      <Modified>2025-11-03T21:25:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\questpdf\2025.7.4\runtimes\win-x64\native\zlib1.dll">
+      <PackagePath>zlib1.dll</PackagePath>
+      <Modified>2025-11-03T21:25:28.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\skiasharp.nativeassets.win32\3.119.1\runtimes\win-x64\native\libSkiaSharp.dll">
       <PackagePath>libSkiaSharp.dll</PackagePath>

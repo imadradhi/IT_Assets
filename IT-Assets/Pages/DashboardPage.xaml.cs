@@ -1,4 +1,5 @@
-﻿using DocumentFormat.OpenXml.Spreadsheet;
+﻿
+using DocumentFormat.OpenXml.Spreadsheet;
 using DocumentFormat.OpenXml.Wordprocessing;
 using IT_Assets.FireHelpers;
 using IT_Assets.Models;
@@ -96,7 +97,14 @@ public partial class DashboardPage : ContentPage
     {
         var query = e.NewTextValue?.ToLower() ?? "";
         FilteredAssets.Clear();
-        foreach (var asset in AllAssets.Where(a => a.Code.ToLower().Contains(query) || a.Name.ToLower().Contains(query) || a.Model.ToLower().Contains(query)))
+        foreach (var asset in AllAssets.Where(a => a.Code.ToLower().Contains(query) || 
+        a.Name.ToLower().Contains(query) || 
+        a.Model.ToLower().Contains(query) ||
+        a.Location.ToLower().Contains(query) ||
+        a.ReceiptForm.ToLower().Contains(query) ||
+        a.MaintenanceDate.Equals(query) ||
+        a.UpdatedBy.ToLower().Contains(query)))
+
             FilteredAssets.Add(asset);
         ShownAssetsCount.Text = $"{FilteredAssets.Count} Items shown!";
     }
@@ -171,7 +179,7 @@ public partial class DashboardPage : ContentPage
 
     private async void OnReportsClicked(object sender, EventArgs e)
     {
-        await Navigation.PushAsync(new ReportsPage(AllAssets.ToList()));
+        await Navigation.PushAsync(new ReportsPage()); // AllAssets.ToList()
     }
 
     // -------------------------------
@@ -270,7 +278,7 @@ public partial class DashboardPage : ContentPage
         _maitenancelistCount = await _firebase.GetMaintenanceAssetsCountAsync();
         MaintenancelistCount.Text = $"{_maitenancelistCount.ToString()} Items in maintenance list";
         _assetsCount = await _firebase.GetAssetsCountAsync();
-        ShownAssetsCount.Text = $"{_assetsCount} Items shown !!";
+        ShownAssetsCount.Text = $"{_assetsCount} Items shown";
     }
 
 
