@@ -1,0 +1,274 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\Dev\\IT-Assets\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF69D3F-4014-4020-9FA0-F07E894D4E6E}|IT-Assets\\IT-Assets.csproj|g:\\dev\\it-assets\\it-assets\\it-assets.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2BF69D3F-4014-4020-9FA0-F07E894D4E6E}|IT-Assets\\IT-Assets.csproj|solutionrelative:it-assets\\it-assets.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF69D3F-4014-4020-9FA0-F07E894D4E6E}|IT-Assets\\IT-Assets.csproj|g:\\dev\\it-assets\\it-assets\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2BF69D3F-4014-4020-9FA0-F07E894D4E6E}|IT-Assets\\IT-Assets.csproj|solutionrelative:it-assets\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF69D3F-4014-4020-9FA0-F07E894D4E6E}|IT-Assets\\IT-Assets.csproj|g:\\dev\\it-assets\\it-assets\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2BF69D3F-4014-4020-9FA0-F07E894D4E6E}|IT-Assets\\IT-Assets.csproj|solutionrelative:it-assets\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF69D3F-4014-4020-9FA0-F07E894D4E6E}|IT-Assets\\IT-Assets.csproj|g:\\dev\\it-assets\\it-assets\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BF69D3F-4014-4020-9FA0-F07E894D4E6E}|IT-Assets\\IT-Assets.csproj|solutionrelative:it-assets\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF69D3F-4014-4020-9FA0-F07E894D4E6E}|IT-Assets\\IT-Assets.csproj|g:\\dev\\it-assets\\it-assets\\pages\\statisticspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2BF69D3F-4014-4020-9FA0-F07E894D4E6E}|IT-Assets\\IT-Assets.csproj|solutionrelative:it-assets\\pages\\statisticspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF69D3F-4014-4020-9FA0-F07E894D4E6E}|IT-Assets\\IT-Assets.csproj|g:\\dev\\it-assets\\it-assets\\pages\\dashboardpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BF69D3F-4014-4020-9FA0-F07E894D4E6E}|IT-Assets\\IT-Assets.csproj|solutionrelative:it-assets\\pages\\dashboardpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF69D3F-4014-4020-9FA0-F07E894D4E6E}|IT-Assets\\IT-Assets.csproj|g:\\dev\\it-assets\\it-assets\\pages\\dashboardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2BF69D3F-4014-4020-9FA0-F07E894D4E6E}|IT-Assets\\IT-Assets.csproj|solutionrelative:it-assets\\pages\\dashboardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF69D3F-4014-4020-9FA0-F07E894D4E6E}|IT-Assets\\IT-Assets.csproj|g:\\dev\\it-assets\\it-assets\\pages\\maintenancepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2BF69D3F-4014-4020-9FA0-F07E894D4E6E}|IT-Assets\\IT-Assets.csproj|solutionrelative:it-assets\\pages\\maintenancepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF69D3F-4014-4020-9FA0-F07E894D4E6E}|IT-Assets\\IT-Assets.csproj|g:\\dev\\it-assets\\it-assets\\mainpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{2BF69D3F-4014-4020-9FA0-F07E894D4E6E}|IT-Assets\\IT-Assets.csproj|solutionrelative:it-assets\\mainpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF69D3F-4014-4020-9FA0-F07E894D4E6E}|IT-Assets\\IT-Assets.csproj|g:\\dev\\it-assets\\it-assets\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2BF69D3F-4014-4020-9FA0-F07E894D4E6E}|IT-Assets\\IT-Assets.csproj|solutionrelative:it-assets\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF69D3F-4014-4020-9FA0-F07E894D4E6E}|IT-Assets\\IT-Assets.csproj|g:\\dev\\it-assets\\it-assets\\pages\\reportspage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{2BF69D3F-4014-4020-9FA0-F07E894D4E6E}|IT-Assets\\IT-Assets.csproj|solutionrelative:it-assets\\pages\\reportspage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF69D3F-4014-4020-9FA0-F07E894D4E6E}|IT-Assets\\IT-Assets.csproj|g:\\dev\\it-assets\\it-assets\\pages\\reportspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2BF69D3F-4014-4020-9FA0-F07E894D4E6E}|IT-Assets\\IT-Assets.csproj|solutionrelative:it-assets\\pages\\reportspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF69D3F-4014-4020-9FA0-F07E894D4E6E}|IT-Assets\\IT-Assets.csproj|g:\\dev\\it-assets\\it-assets\\firehelpers\\firebasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BF69D3F-4014-4020-9FA0-F07E894D4E6E}|IT-Assets\\IT-Assets.csproj|solutionrelative:it-assets\\firehelpers\\firebasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF69D3F-4014-4020-9FA0-F07E894D4E6E}|IT-Assets\\IT-Assets.csproj|g:\\dev\\it-assets\\it-assets\\app.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{2BF69D3F-4014-4020-9FA0-F07E894D4E6E}|IT-Assets\\IT-Assets.csproj|solutionrelative:it-assets\\app.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF69D3F-4014-4020-9FA0-F07E894D4E6E}|IT-Assets\\IT-Assets.csproj|g:\\dev\\it-assets\\it-assets\\global\\globalvar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BF69D3F-4014-4020-9FA0-F07E894D4E6E}|IT-Assets\\IT-Assets.csproj|solutionrelative:it-assets\\global\\globalvar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StatisticsPage.xaml",
+              "DocumentMoniker": "G:\\Dev\\IT-Assets\\IT-Assets\\Pages\\StatisticsPage.xaml",
+              "RelativeDocumentMoniker": "IT-Assets\\Pages\\StatisticsPage.xaml",
+              "ToolTip": "G:\\Dev\\IT-Assets\\IT-Assets\\Pages\\StatisticsPage.xaml",
+              "RelativeToolTip": "IT-Assets\\Pages\\StatisticsPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-06T10:42:04.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DashboardPage.xaml",
+              "DocumentMoniker": "G:\\Dev\\IT-Assets\\IT-Assets\\Pages\\DashboardPage.xaml",
+              "RelativeDocumentMoniker": "IT-Assets\\Pages\\DashboardPage.xaml",
+              "ToolTip": "G:\\Dev\\IT-Assets\\IT-Assets\\Pages\\DashboardPage.xaml",
+              "RelativeToolTip": "IT-Assets\\Pages\\DashboardPage.xaml",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAcwD0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-05T07:30:11.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DashboardPage.xaml.cs",
+              "DocumentMoniker": "G:\\Dev\\IT-Assets\\IT-Assets\\Pages\\DashboardPage.xaml.cs",
+              "RelativeDocumentMoniker": "IT-Assets\\Pages\\DashboardPage.xaml.cs",
+              "ToolTip": "G:\\Dev\\IT-Assets\\IT-Assets\\Pages\\DashboardPage.xaml.cs",
+              "RelativeToolTip": "IT-Assets\\Pages\\DashboardPage.xaml.cs",
+              "ViewState": "AgIAAAMBAAAAAAAAAAAAABgBAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T07:37:01.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IT-Assets.csproj",
+              "DocumentMoniker": "G:\\Dev\\IT-Assets\\IT-Assets\\IT-Assets.csproj",
+              "RelativeDocumentMoniker": "IT-Assets\\IT-Assets.csproj",
+              "ToolTip": "G:\\Dev\\IT-Assets\\IT-Assets\\IT-Assets.csproj",
+              "RelativeToolTip": "IT-Assets\\IT-Assets.csproj",
+              "ViewState": "AgIAACMAAAAAAAAAAAAWwDIAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-05T07:09:12.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "G:\\Dev\\IT-Assets\\IT-Assets\\AppShell.xaml",
+              "RelativeDocumentMoniker": "IT-Assets\\AppShell.xaml",
+              "ToolTip": "G:\\Dev\\IT-Assets\\IT-Assets\\AppShell.xaml",
+              "RelativeToolTip": "IT-Assets\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-06T11:09:20.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "G:\\Dev\\IT-Assets\\IT-Assets\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "IT-Assets\\MauiProgram.cs",
+              "ToolTip": "G:\\Dev\\IT-Assets\\IT-Assets\\MauiProgram.cs",
+              "RelativeToolTip": "IT-Assets\\MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T10:51:18.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.xaml",
+              "DocumentMoniker": "G:\\Dev\\IT-Assets\\IT-Assets\\App.xaml",
+              "RelativeDocumentMoniker": "IT-Assets\\App.xaml",
+              "ToolTip": "G:\\Dev\\IT-Assets\\IT-Assets\\App.xaml",
+              "RelativeToolTip": "IT-Assets\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-05T10:39:35.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MaintenancePage.xaml",
+              "DocumentMoniker": "G:\\Dev\\IT-Assets\\IT-Assets\\Pages\\MaintenancePage.xaml",
+              "RelativeDocumentMoniker": "IT-Assets\\Pages\\MaintenancePage.xaml",
+              "ToolTip": "G:\\Dev\\IT-Assets\\IT-Assets\\Pages\\MaintenancePage.xaml",
+              "RelativeToolTip": "IT-Assets\\Pages\\MaintenancePage.xaml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAowA0AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-06T10:43:56.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "G:\\Dev\\IT-Assets\\IT-Assets\\MainPage.xaml",
+              "RelativeDocumentMoniker": "IT-Assets\\MainPage.xaml",
+              "ToolTip": "G:\\Dev\\IT-Assets\\IT-Assets\\MainPage.xaml",
+              "RelativeToolTip": "IT-Assets\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-06T06:28:06.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ReportsPage.xaml",
+              "DocumentMoniker": "G:\\Dev\\IT-Assets\\IT-Assets\\Pages\\ReportsPage.xaml",
+              "RelativeDocumentMoniker": "IT-Assets\\Pages\\ReportsPage.xaml",
+              "ToolTip": "G:\\Dev\\IT-Assets\\IT-Assets\\Pages\\ReportsPage.xaml",
+              "RelativeToolTip": "IT-Assets\\Pages\\ReportsPage.xaml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-05T07:27:51.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "G:\\Dev\\IT-Assets\\IT-Assets\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "IT-Assets\\MainPage.xaml.cs",
+              "ToolTip": "G:\\Dev\\IT-Assets\\IT-Assets\\MainPage.xaml.cs",
+              "RelativeToolTip": "IT-Assets\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T06:28:13.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ReportsPage.xaml.cs",
+              "DocumentMoniker": "G:\\Dev\\IT-Assets\\IT-Assets\\Pages\\ReportsPage.xaml.cs",
+              "RelativeDocumentMoniker": "IT-Assets\\Pages\\ReportsPage.xaml.cs",
+              "ToolTip": "G:\\Dev\\IT-Assets\\IT-Assets\\Pages\\ReportsPage.xaml.cs",
+              "RelativeToolTip": "IT-Assets\\Pages\\ReportsPage.xaml.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAAwFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T07:28:36.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FirebaseHelper.cs",
+              "DocumentMoniker": "G:\\Dev\\IT-Assets\\IT-Assets\\FireHelpers\\FirebaseHelper.cs",
+              "RelativeDocumentMoniker": "IT-Assets\\FireHelpers\\FirebaseHelper.cs",
+              "ToolTip": "G:\\Dev\\IT-Assets\\IT-Assets\\FireHelpers\\FirebaseHelper.cs",
+              "RelativeToolTip": "IT-Assets\\FireHelpers\\FirebaseHelper.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAgwHwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T07:30:31.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "G:\\Dev\\IT-Assets\\IT-Assets\\App.xaml.cs",
+              "RelativeDocumentMoniker": "IT-Assets\\App.xaml.cs",
+              "ToolTip": "G:\\Dev\\IT-Assets\\IT-Assets\\App.xaml.cs",
+              "RelativeToolTip": "IT-Assets\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T10:39:38.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GlobalVar.cs",
+              "DocumentMoniker": "G:\\Dev\\IT-Assets\\IT-Assets\\Global\\GlobalVar.cs",
+              "RelativeDocumentMoniker": "IT-Assets\\Global\\GlobalVar.cs",
+              "ToolTip": "G:\\Dev\\IT-Assets\\IT-Assets\\Global\\GlobalVar.cs",
+              "RelativeToolTip": "IT-Assets\\Global\\GlobalVar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T07:29:39.713Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
